@@ -19,8 +19,20 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.content.Context;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.DeviceInfoUtils;
+import android.support.v7.preference.Preference;
+import android.text.TextUtils;
+import android.util.Log;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class KernelVersionPreferenceController extends BasePreferenceController {
+
+    private static final String KEY_KERNEL_VERSION = "kernel_version";
+    private static final String FILENAME_PROC_VERSION = "/proc/version";
+    private static final String LOG_TAG = "KernelVersionPreferenceController";
+
     public int getAvailabilityStatus() {
         return AVAILABLE;
     }
@@ -31,5 +43,46 @@ public class KernelVersionPreferenceController extends BasePreferenceController 
 
     public CharSequence getSummary() {
         return DeviceInfoUtils.getFormattedKernelVersion(this.mContext);
+    }
+
+    @Override
+    public String getPreferenceKey() {
+        return KEY_KERNEL_VERSION;
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        if (!TextUtils.equals(preference.getKey(), KEY_KERNEL_VERSION)) {
+            return false;
+        }
+        preference.setSummary(getFullKernelVersion());
+        return false;
+    }
+
+    private String getFullKernelVersion() {
+        String procVersionStr;
+        try {
+            procVersionStr = readLine(FILENAME_PROC_VERSION);
+            return procVersionStr;
+        } catch (IOException e) {
+            Log.e(LOG_TAG,
+            "IO Exception when getting kernel version for Device Info screen", e);
+            return "Unavailable";
+        }
+    }
+
+    /**
+     * Reads a line from the specified file.
+     * @param filename the file to read from
+     * @return the first line, if any.
+     * @throws IOException if the file couldn't be read
+     */
+    private static String readLine(String filename) throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(filename), 256);
+        try {
+            return reader.readLine();
+        } finally {
+            reader.close();
+        }
     }
 }
