@@ -114,4 +114,7 @@
     <!-- Corvus maintainer -->
     <string name="maintainer">Maintainer</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 </resources>
