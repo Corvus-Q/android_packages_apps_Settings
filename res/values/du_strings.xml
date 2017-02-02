@@ -106,4 +106,6 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
