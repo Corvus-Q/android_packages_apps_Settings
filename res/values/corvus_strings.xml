@@ -122,4 +122,6 @@
     <string name="corvus_themes_title">Raven Themes</string>
     <string name="corvus_themes_summary">Lets get some colors to Fly High</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>
