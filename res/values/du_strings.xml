@@ -193,4 +193,7 @@
     <string name="qs_header_accent">Accent Based</string>
     <string name="qs_header_transparent">Transparent</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
 </resources>
