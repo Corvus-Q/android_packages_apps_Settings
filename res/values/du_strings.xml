@@ -18,10 +18,11 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
-    <!-- About phone screen, aosip version -->
-    <string name="durex_version">DUREX version</string>
+    <!-- About phone screen, DureX version -->
+    <string name="durex_version">DureX version</string>
     <string name="durex_version_default">Unknown</string>
     <string name="keywords_durex_version">durex version</string>
+    <string name="maintainer">Maintainer</string>
 
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>

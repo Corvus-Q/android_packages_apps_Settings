@@ -42,6 +42,14 @@
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.DurexVersionPreferenceController"/>
 
+    <!-- Durex maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DurexMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
