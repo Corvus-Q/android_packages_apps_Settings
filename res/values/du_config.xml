@@ -30,4 +30,7 @@
     <!-- Customize your device -->
     <string name="config_du_themes_package" translatable="false">com.dirtyunicorns.themes</string>
     <string name="config_du_themes_class" translatable="false">com.dirtyunicorns.themes.MainActivity</string>
+
+    <!-- Whether to add AGPS parameter settings -->
+    <bool name="config_agps_enabled">true</bool>
 </resources>
