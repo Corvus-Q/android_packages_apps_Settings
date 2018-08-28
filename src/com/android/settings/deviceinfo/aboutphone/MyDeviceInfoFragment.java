@@ -33,11 +33,8 @@ import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
-import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
-import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.UpTimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
-import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
@@ -72,7 +69,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(ImeiInfoPreferenceController.class).setHost(this /* parent */);
         use(DeviceNamePreferenceController.class).setHost(this /* parent */);
         mBuildNumberPreferenceController = use(BuildNumberPreferenceController.class);
         mBuildNumberPreferenceController.setHost(this /* parent */);
@@ -106,8 +102,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
-        controllers.add(new RegulatoryInfoPreferenceController(context));
-        controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new UpTimePreferenceController(context));
         return controllers;
     }
