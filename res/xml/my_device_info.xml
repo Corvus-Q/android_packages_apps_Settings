@@ -71,22 +71,6 @@
         settings:allowDividerAbove="true"
         settings:searchable="false"/-->
 
-    <!-- Regulatory labels -->
-    <Preference
-        android:key="regulatory_info"
-        android:order="16"
-        android:title="@string/regulatory_labels">
-        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-    </Preference>
-
-    <!-- Safety & regulatory manual -->
-    <Preference
-        android:key="safety_info"
-        android:order="17"
-        android:title="@string/safety_and_regulatory_info">
-        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO"/>
-    </Preference>
-
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
@@ -106,15 +90,6 @@
         android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
         settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
 
-    <!-- IMEI -->
-    <Preference
-        android:key="imei_info"
-        android:order="32"
-        android:title="@string/status_imei"
-        settings:keywords="@string/keywords_imei_info"
-        android:summary="@string/summary_placeholder"
-        settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
-
     <!-- Android version -->
     <Preference
         android:key="firmware_version"
@@ -123,6 +98,29 @@
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
+    <!-- Build number -->
+    <Preference
+        android:key="build_number"
+        android:order="44"
+        android:title="@string/build_number"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
+    <!-- SELinux status information -->
+    <Preference
+        android:key="selinux_status"
+        android:order="46"
+        android:title="@string/selinux_status"
+        android:summary="@string/selinux_status_enforcing"/>
+
+    <!-- Up time -->
+    <Preference
+        android:key="status_up_time"
+        android:order="48"
+        android:title="@string/status_up_time"
+        android:summary="@string/summary_placeholder"/>
 
     <!--IP address -->
     <Preference
