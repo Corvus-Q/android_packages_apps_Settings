@@ -61,12 +61,6 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/DU-Tweaks/res
 
-ifneq ($(INCREMENTAL_BUILDS),)
-    LOCAL_PROGUARD_ENABLED := disabled
-    LOCAL_JACK_ENABLED := incremental
-    LOCAL_JACK_FLAGS := --multi-dex native
-endif
-
 include frameworks/base/packages/SettingsLib/common.mk
 include frameworks/base/packages/SettingsLib/search/common.mk
 include vendor/du/support/common.mk
