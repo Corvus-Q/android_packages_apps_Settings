@@ -30,6 +30,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.telephony.CarrierConfigManager;
 import android.telephony.CellBroadcastMessage;
 import android.telephony.PhoneStateListener;
@@ -353,14 +354,10 @@ public class SimStatusDialogController implements LifecycleObserver, OnResume, O
             voiceNetworkTypeName = mTelephonyManager.getNetworkTypeName(actualVoiceNetworkType);
         }
 
-        boolean show4GForLTE = false;
-        final PersistableBundle carrierConfig = mCarrierConfigManager.getConfigForSubId(subId);
-        if (carrierConfig != null) {
-            show4GForLTE = carrierConfig.getBoolean(
-                    CarrierConfigManager.KEY_SHOW_4G_FOR_LTE_DATA_ICON_BOOL);
-        }
+        boolean mShow4GForLTE = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.SHOW_FOURG_ICON, 0, UserHandle.USER_CURRENT) == 1;
 
-        if (show4GForLTE) {
+        if (mShow4GForLTE) {
             if ("LTE".equals(dataNetworkTypeName)) {
                 dataNetworkTypeName = "4G";
             }
