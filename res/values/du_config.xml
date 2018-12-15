@@ -20,4 +20,6 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
+    <color name="settings_icon_oneplus">@android:color/white</color>
+
 </resources>
