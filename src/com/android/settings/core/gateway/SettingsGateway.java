@@ -140,6 +140,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.dirtyunicorns.tweaks.fragments.CustomHeaders;
 import com.dirtyunicorns.tweaks.fragments.GamingMode;
 import com.dirtyunicorns.tweaks.DirtyTweaks;
 
@@ -270,7 +271,9 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             DirtyTweaks.class.getName(),
             RunningServices.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+            CustomHeaders.class.getName()
+
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -311,6 +314,7 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.DirtyTweaksActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName()
+            Settings.GamingModeActivity.class.getName(),
+            Settings.CustomHeadersActivity.class.getName()
     };
 }

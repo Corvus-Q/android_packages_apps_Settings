@@ -3346,6 +3346,18 @@
                 android:value="com.dirtyunicorns.tweaks.fragments.GamingMode" />
         </activity>
 
+        <!-- Custom statusbar header settings -->
+        <activity android:name="Settings$CustomHeadersActivity"
+                android:label="@string/custom_headers_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.dirtyunicorns.tweaks.fragments.CustomHeaders" />
+        </activity>
+
         <receiver
             android:name=".slices.SliceBroadcastReceiver"
             android:exported="false">
