@@ -25,11 +25,13 @@ import android.graphics.PorterDuffColorFilter;
 import android.provider.Settings;
 import android.support.annotation.VisibleForTesting;
 import android.util.AttributeSet;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settingslib.graph.BatteryMeterDrawableBase;
+import com.android.settingslib.graph.ThemedBatteryDrawable;
 
 public class BatteryMeterView extends ImageView {
     @VisibleForTesting
@@ -51,32 +53,49 @@ public class BatteryMeterView extends ImageView {
         super(context, attrs, defStyleAttr);
 
         final int frameColor = context.getColor(R.color.meter_background_color);
+        final int fillColor = Color.WHITE;
+        final int bgColor = context.getColor(R.color.meter_background_color);
         mAccentColorFilter = new PorterDuffColorFilter(
                 Utils.getColorAttrDefaultColor(context, android.R.attr.colorAccent),
                 PorterDuff.Mode.SRC_IN);
         mErrorColorFilter = new PorterDuffColorFilter(
                 context.getColor(R.color.battery_icon_color_error), PorterDuff.Mode.SRC_IN);
 
-        //mDrawable = new BatteryMeterDrawable(context, frameColor);
-        //mDrawable.setShowPercent(false);
         int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.STATUS_BAR_BATTERY_STYLE,
-                BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT);
-        mDrawable = new BatteryMeterDrawable(context, frameColor, userStyle);
-        mDrawable.setBatteryColorFilter(mAccentColorFilter);
-        if (userStyle == BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT) {
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_Q);
+        if (userStyle != BatteryMeterDrawableBase.BATTERY_STYLE_Q) {
+            mDrawable = new BatteryMeterDrawable(context, frameColor, userStyle);
+            mDrawable.setBatteryColorFilter(mAccentColorFilter);
             mDrawable.setWarningColorFilter(
                     new PorterDuffColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN));
+            setImageDrawable(mDrawable);
+        } else {
+            mDrawable = new BatteryMeterDrawable(context, fillColor, userStyle);
+            mDrawable.setShowPercent(false);
+            mDrawable.setColorFilter(mAccentColorFilter);
+            mDrawable.setMeterStyle(BatteryMeterDrawableBase.BATTERY_STYLE_Q);
+            mDrawable.setColors(fillColor, bgColor, fillColor);
+            setImageDrawable(mDrawable);
+            setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         }
-        setImageDrawable(mDrawable);
     }
 
     public void setBatteryLevel(int level) {
+        int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_Q);
         mDrawable.setBatteryLevel(level);
         if (level < mDrawable.getCriticalLevel()) {
-            mDrawable.setBatteryColorFilter(mErrorColorFilter);
+            if (userStyle != BatteryMeterDrawableBase.BATTERY_STYLE_Q) {
+                mDrawable.setBatteryColorFilter(mErrorColorFilter);
+            } else {
+                mDrawable.setColorFilter(mErrorColorFilter);
+            }
         } else {
-            mDrawable.setBatteryColorFilter(mAccentColorFilter);
+            if (userStyle != BatteryMeterDrawableBase.BATTERY_STYLE_Q) {
+                mDrawable.setBatteryColorFilter(mAccentColorFilter);
+            } else {
+                mDrawable.setColorFilter(mAccentColorFilter);
+            }
         }
     }
 
@@ -93,7 +112,7 @@ public class BatteryMeterView extends ImageView {
         return mDrawable.getCharging();
     }
 
-    public static class BatteryMeterDrawable extends BatteryMeterDrawableBase {
+    public static class BatteryMeterDrawable extends ThemedBatteryDrawable {
         private int mIntrinsicWidth;
         private int mIntrinsicHeight;
 
@@ -106,29 +125,25 @@ public class BatteryMeterView extends ImageView {
                     .getDimensionPixelSize(R.dimen.battery_meter_height);*/
             setMeterStyle(style);
             switch (style) {
-                case BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT:
-                    mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_width);
-                    mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_height);
+                case BatteryMeterDrawableBase.BATTERY_STYLE_Q:
+                default:
+                    ThemedBatteryDrawable qBattery = new ThemedBatteryDrawable(mContext, frameColor);
+                    mIntrinsicWidth = qBattery.getIntrinsicWidth();
+                    mIntrinsicHeight = qBattery.getIntrinsicHeight();
                     setShowPercent(false);
                     break;
-                case BatteryMeterDrawableBase.BATTERY_STYLE_Q:
+                case BatteryMeterDrawableBase.BATTERY_STYLE_PORTRAIT:
                     mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_width);
                     mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
                     setShowPercent(false);
                     break;
                 case BatteryMeterDrawableBase.BATTERY_STYLE_CIRCLE:
-                    mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_height);
-                    mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_height);
+                    mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
+                    mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
                     break;
                 case BatteryMeterDrawableBase.BATTERY_STYLE_DOTTED_CIRCLE:
-                    mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_height);
-                    mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(
-                                      R.dimen.battery_meter_height);
+                    mIntrinsicWidth = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
+                    mIntrinsicHeight = mContext.getResources().getDimensionPixelSize(R.dimen.battery_meter_height);
                     setDashEffect(new float[]{18,10}, 0);
                     break;
             }
@@ -145,14 +160,21 @@ public class BatteryMeterView extends ImageView {
         }
 
         public void setWarningColorFilter(@Nullable ColorFilter colorFilter) {
-            mWarningTextPaint.setColorFilter(colorFilter);
+        int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_Q);
+            if (userStyle != BatteryMeterDrawableBase.BATTERY_STYLE_Q) {
+                mWarningTextPaint.setColorFilter(colorFilter);
+            }
         }
 
         public void setBatteryColorFilter(@Nullable ColorFilter colorFilter) {
-            mFramePaint.setColorFilter(colorFilter);
-            mBatteryPaint.setColorFilter(colorFilter);
-            mBoltPaint.setColorFilter(colorFilter);
+        int userStyle = Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, BatteryMeterDrawableBase.BATTERY_STYLE_Q);
+            if (userStyle != BatteryMeterDrawableBase.BATTERY_STYLE_Q) {
+                mFramePaint.setColorFilter(colorFilter);
+                mBatteryPaint.setColorFilter(colorFilter);
+                mBoltPaint.setColorFilter(colorFilter);
+            }
         }
     }
-
 }
