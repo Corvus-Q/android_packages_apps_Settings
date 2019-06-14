@@ -48,16 +48,15 @@
             android:targetClass="com.android.phone.MobileNetworkSettings" />
     </com.android.settingslib.RestrictedPreference>
 
-    <com.android.settingslib.RestrictedPreference
-        android:fragment="com.android.settings.TetherSettings"
-        android:key="tether_settings"
-        android:title="@string/tether_settings_title_all"
-        android:icon="@drawable/ic_wifi_tethering"
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="airplane_mode"
+        android:title="@string/airplane_mode"
+        android:icon="@drawable/ic_airplanemode_active"
+        android:disableDependentsState="true"
         android:order="-5"
-        android:summary="@string/summary_placeholder"
-        settings:keywords="@string/keywords_hotspot_tethering"
-        settings:userRestriction="no_config_tethering"
-        settings:useAdminDisabledSummary="true" />
+        settings:controller="com.android.settings.network.AirplaneModePreferenceController"
+        settings:platform_slice="true"
+        settings:userRestriction="no_airplane_mode"/>
 
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
@@ -67,15 +66,16 @@
         settings:userRestriction="no_config_mobile_networks"
         settings:useAdminDisabledSummary="true" />
 
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="airplane_mode"
-        android:title="@string/airplane_mode"
-        android:icon="@drawable/ic_airplanemode_active"
-        android:disableDependentsState="true"
+    <com.android.settingslib.RestrictedPreference
+        android:fragment="com.android.settings.TetherSettings"
+        android:key="tether_settings"
+        android:title="@string/tether_settings_title_all"
+        android:icon="@drawable/ic_wifi_tethering"
         android:order="5"
-        settings:controller="com.android.settings.network.AirplaneModePreferenceController"
-        settings:platform_slice="true"
-        settings:userRestriction="no_airplane_mode"/>
+        android:summary="@string/summary_placeholder"
+        settings:keywords="@string/keywords_hotspot_tethering"
+        settings:userRestriction="no_config_tethering" 
+        settings:useAdminDisabledSummary="true" />
 
     <Preference
         android:fragment="com.android.settings.ProxySelector"
@@ -87,7 +87,7 @@
         android:key="vpn_settings"
         android:title="@string/vpn_settings_title"
         android:icon="@drawable/ic_vpn_key"
-        android:order="10"
+        android:order="15"
         android:summary="@string/summary_placeholder"
         settings:userRestriction="no_config_vpn"
         settings:useAdminDisabledSummary="true" />
@@ -96,7 +96,7 @@
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
         android:icon="@drawable/ic_dns"
-        android:order="15"
+        android:order="20"
         android:dialogTitle="@string/select_private_dns_configuration_dialog_title"
         android:dialogLayout="@layout/private_dns_mode_dialog"
         android:positiveButtonText="@string/save"

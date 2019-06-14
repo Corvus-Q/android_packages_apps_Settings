@@ -881,9 +881,9 @@
     <!-- In the security screen, the header title for security statuses -->
     <string name="security_status_title">Security status</string>
     <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="security_dashboard_summary">Screen lock, fingerprint</string>
+    <string name="security_dashboard_summary">Play Protect, screen lock, fingerprint</string>
     <!-- Summary for Security settings when fingerprint is not supported [CHAR LIMIT=NONE]-->
-    <string name="security_dashboard_summary_no_fingerprint">Screen lock</string>
+    <string name="security_dashboard_summary_no_fingerprint">Play Protect, screen lock</string>
     <!-- Fingerprint enrollment and settings --><skip />
     <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint_preference_title">Fingerprint</string>
@@ -2608,7 +2608,7 @@
     <string name="night_display_activation_off_custom">Turn off until <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
 
     <!-- Sound & display settings screen, setting option name to change screen timeout -->
-    <string name="screen_timeout">Sleep</string>
+    <string name="screen_timeout">Screen timeout</string>
     <!-- Sound & display settings screen, setting option name to change screen timeout [CHAR LIMIT=30] -->
     <string name="screen_timeout_title">Screen turns off</string>
     <!-- Sound & display settings screen, setting option summary to change screen timeout -->
@@ -2758,7 +2758,7 @@
     <string name="device_info_settings" product="default">Phone status</string>
 
     <!-- About phone screen, list item title.  Takes the user to the screen for seeing and installing system updates. [CHAR LIMIT=40] -->
-    <string name="system_update_settings_list_item_title">System updates</string>
+    <string name="system_update_settings_list_item_title">System update</string>
     <!-- About phone screen, list item summary.  Takes the user to the screen for seeing and installing system updates. [CHAR LIMIT=40] -->
     <string name="system_update_settings_list_item_summary">""</string>
 
@@ -6947,7 +6947,7 @@
     <!-- Title for setting tile leading to Apps & Notification settings [CHAR LIMIT=40]-->
     <string name="app_and_notification_dashboard_title">Apps &amp; notifications</string>
     <!-- Summary for Apps & Notification settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
-    <string name="app_and_notification_dashboard_summary">Permissions, default apps</string>
+    <string name="app_and_notification_dashboard_summary">Assistant, recent apps, default apps</string>
     <!-- Title for setting tile leading to account settings [CHAR LIMIT=40]-->
     <string name="account_dashboard_title">Accounts</string>
     <!-- Summary for account settings tiles when there is no accounts on device [CHAR LIMIT=NONE]-->
@@ -6956,7 +6956,7 @@
     handle actions such as open web page, making phone calls, default SMS apps [CHAR  LIMIT=40]-->
     <string name="app_default_dashboard_title">Default apps</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
-    <string name="system_dashboard_summary">Languages, time, backup, updates</string>
+    <string name="system_dashboard_summary">Languages, gestures, time, backup</string>
 
     <!-- Search strings -->
     <!-- Text to describe the search results fragment title [CHAR LIMIT=16] -->
@@ -9873,9 +9873,9 @@
     </string>
 
     <!-- Name of setting for switching device theme [CHAR LIMIT=60] -->
-    <string name="color_theme">Color theme</string>
+    <string name="color_theme">Accent color</string>
     <!-- Name of default device theme [CHAR LIMIT=60] -->
-    <string name="default_theme">Default</string>
+    <string name="default_theme">Device default</string>
     <!-- Temporary reboot string, will be removed -->
     <string name="change_theme_reboot" translatable="false">Changing the theme requires a restart.</string>
 
