@@ -159,6 +159,9 @@
     <string name="switch_oneplus">OnePlus</string>
     <string name="switch_tg">Telegram</string>
 
+    <!-- Interfaces Settings-->
+    <string name="interfaces_settings">Interfaces</string>
+
     <!-- Settings dashboard icon style -->
     <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
     <string name="theming_settings_dashboard_icons_default">Round</string>
@@ -181,5 +184,13 @@
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">Battery saving mode</string>
     <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">QS Header style</string>
+    <string name="qs_header_black">Black</string>
+    <string name="qs_header_grey">Grey</string>
+    <string name="qs_header_lightgrey">Light Grey</string>
+    <string name="qs_header_accent">Accent Based</string>
+    <string name="qs_header_transparent">Transparent</string>
 
 </resources>

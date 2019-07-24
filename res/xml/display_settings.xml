@@ -175,6 +175,13 @@
             android:entries="@array/switch_style_entries"
             android:entryValues="@array/switch_style_values" />
 
+    <ListPreference
+	android:key="qs_header_style"
+	android:title="@string/qs_header_style_title"
+	android:persistent="false"
+	android:entries="@array/qs_header_style_entries"
+	android:entryValues="@array/qs_header_style_values" />
+
         <com.dirtyunicorns.support.preferences.SystemSettingIntListPreference
 	android:key="theming_settings_dashboard_icons"
 	android:title="@string/theming_settings_dashboard_icons_title"
