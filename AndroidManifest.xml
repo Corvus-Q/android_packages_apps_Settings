@@ -3410,16 +3410,6 @@
                        android:resource="@string/dirtytweaks_summary"/>
         </activity>
 
-        <!-- Changelog -->
-        <activity android:name="com.bytehamster.changelog.Main"
-                  android:taskAffinity=""
-                  android:parentActivityName="Settings"
-                  android:configChanges="orientation|screenLayout|screenSize"
-                  android:label="@string/changelog_title" />
-        <activity android:name="com.bytehamster.changelog.Preferences"
-                  android:configChanges="orientation|screenLayout|screenSize"
-                  android:label="@string/settings_label" />
-
         <!-- Navbar -->
         <activity
             android:name="com.dirtyunicorns.tweaks.fragments.navbar.BackLongPress"
@@ -3480,6 +3470,5 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
     </application>
 </manifest>
