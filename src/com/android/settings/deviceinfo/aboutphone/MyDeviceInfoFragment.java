@@ -39,13 +39,13 @@ import com.android.settings.deviceinfo.BrandedAccountPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
+import com.android.settings.deviceinfo.du.DuInfoPreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.PhoneNumberPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
-import com.android.settings.deviceinfo.ROMVersionPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.UpTimePreferenceController;
@@ -130,8 +130,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new ManualPreferenceController(context));
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
-        controllers.add(new ROMVersionPreferenceController(context));
         controllers.add(new SELinuxStatusPreferenceController(context));
+        controllers.add(new DuInfoPreferenceController(context, fragment));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         controllers.add(new UpTimePreferenceController(context));
