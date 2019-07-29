@@ -27,6 +27,14 @@
     	    android:layout_width="match_parent"
     	    android:layout_height="wrap_content"
             android:selectable="false">
+
+           <ImageView
+	       android:layout_width="match_parent"
+ 	       android:layout_height="match_parent"
+	       android:src="@drawable/du_banner"
+	       android:tint="?android:attr/colorAccent"
+	       android:adjustViewBounds="true"
+	       android:scaleType="centerInside" />
         </LinearLayout>
 
         <TextView
