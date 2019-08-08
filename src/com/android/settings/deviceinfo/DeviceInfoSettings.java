@@ -28,7 +28,6 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
-import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -129,7 +128,6 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));
-        controllers.add(new FirmwareVersionPreferenceController(context, fragment));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
