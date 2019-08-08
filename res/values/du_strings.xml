@@ -199,7 +199,7 @@
     <string name="du_date">Build date</string>
     <string name="du_type">Build type</string>
     <string name="du_device">Device</string>
-    <string name="du_version">Version</string>
+    <string name="du_version">Du-Rex Version</string>
 
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>

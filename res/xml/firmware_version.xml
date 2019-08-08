@@ -29,6 +29,12 @@
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController" />
 
     <Preference
+        android:title="@string/du_version"
+        android:key="os_du_version"
+        android:summary="@string/summary_placeholder"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DuVersionDetailPreferenceController" />
+
+    <Preference
         android:title="@string/security_patch"
         android:key="security_key"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController" />
