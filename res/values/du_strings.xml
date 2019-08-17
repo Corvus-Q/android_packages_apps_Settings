@@ -154,6 +154,9 @@
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_oneplus">OnePlus</string>
     <string name="switch_tg">Telegram</string>
+    <string name="switch_narrow">Narrow</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_retro">Retro</string>
 
     <!-- Interfaces Settings-->
     <string name="interfaces_settings">Interfaces</string>
