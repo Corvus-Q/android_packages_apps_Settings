@@ -167,8 +167,8 @@
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
     <!-- du-OS info -->
-    <string name="du_title">Dirty Unicorns</string>
-    <string name="du_info">DU Version</string>
+    <string name="du_title">DU-REX</string>
+    <string name="du_info">Version</string>
     <string name="du_maintainer">Maintainer</string>
     <string name="du_date">Build date</string>
     <string name="du_device">Device code name</string>
