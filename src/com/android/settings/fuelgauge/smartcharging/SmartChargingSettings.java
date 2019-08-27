@@ -46,11 +46,15 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
     private static final String TAG = "SmartChargingSettings";
     private static final String KEY_SMART_CHARGING_LEVEL = "smart_charging_level";
     private static final String KEY_SMART_CHARGING_RESUME_LEVEL = "smart_charging_resume_level";
+    private static final String KEY_SMART_CHARGING_RESET_STATS = "smart_charging_reset_stats";
+
     private CustomSeekBarPreference mSmartChargingLevel;
     private CustomSeekBarPreference mSmartChargingResumeLevel;
+    private CustomSeekBarPreference mSmartChargingReset;
 
     private int mSmartChargingLevelDefaultConfig;
     private int mSmartChargingResumeLevelDefaultConfig;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -59,6 +63,12 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
         mSmartChargingResumeLevelDefaultConfig = getResources().getInteger(
                 com.android.internal.R.integer.config_smartChargingBatteryResumeLevel);
+
+        mSmartChargingReset = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_RESET_STATS);
+        int chargingResetLevel = Settings.System.getInt(getContentResolver(),
+            Settings.System.SMART_CHARGING_RESET_STATS, 100);
+        mSmartChargingReset.setValue(chargingResetLevel);
+        mSmartChargingReset.setOnPreferenceChangeListener(this);
 
         mSmartChargingLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL);
         int currentLevel = Settings.System.getInt(getContentResolver(),
@@ -94,7 +104,12 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mSmartChargingLevel) {
+        if (preference == mSmartChargingReset) {
+            int top = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SMART_CHARGING_RESET_STATS, top*1);
+            return true;
+        } else if (preference == mSmartChargingLevel) {
             int smartChargingLevel = (Integer) objValue;
             int mChargingResumeLevel = Settings.System.getInt(getContentResolver(),
                      Settings.System.SMART_CHARGING_RESUME_LEVEL, mSmartChargingResumeLevelDefaultConfig);

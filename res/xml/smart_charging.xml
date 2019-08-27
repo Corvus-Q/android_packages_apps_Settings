@@ -29,8 +29,10 @@
     <com.dirtyunicorns.support.preferences.CustomSeekBarPreference
         android:key="smart_charging_reset_stats"
         android:title="@string/smart_charging_reset_stats_title"
-        android:summary="@string/smart_charging_reset_stats_summary"
-        android:defaultValue="false"
+        android:max="100"
+        settings:min="0"
+        settings:units="%"
+        android:defaultValue="100"
         android:dependency="smart_charging" />
 
     <com.dirtyunicorns.support.preferences.CustomSeekBarPreference
