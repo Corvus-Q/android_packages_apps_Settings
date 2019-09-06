@@ -38,8 +38,6 @@ import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
 import com.android.settings.display.QsTileStylesPreferenceController;
-import com.android.settings.display.QsHeaderStylePreferenceController;
-import com.android.settings.display.SwitchStylePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
@@ -48,7 +46,6 @@ import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
-import com.android.settings.display.FontPickerPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -66,41 +63,6 @@ public class DisplaySettings extends DashboardFragment {
     private static final String KEY_AMBIENT_DISPLAY = "ambient_display";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness_entry";
     private static final String KEY_NIGHT_DISPLAY = "night_display";
-
-    private IntentFilter mIntentFilter;
-    private static FontPickerPreferenceController mFontPickerPreference;
-
-    private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String action = intent.getAction();
-            if (action.equals("com.android.server.ACTION_FONT_CHANGED")) {
-                mFontPickerPreference.stopProgress();
-            }
-        }
-    };
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mIntentFilter = new IntentFilter();
-        mIntentFilter.addAction("com.android.server.ACTION_FONT_CHANGED");
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        final Context context = getActivity();
-        context.registerReceiver(mIntentReceiver, mIntentFilter);
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        final Context context = getActivity();
-        context.unregisterReceiver(mIntentReceiver);
-        mFontPickerPreference.stopProgress();
-    }
 
     @Override
     public int getMetricsCategory() {
@@ -130,7 +92,6 @@ public class DisplaySettings extends DashboardFragment {
     private static List<AbstractPreferenceController> buildPreferenceControllers(
             Context context, Lifecycle lifecycle, Fragment fragment) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
@@ -146,8 +107,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
-        controllers.add(new SwitchStylePreferenceController(context));
-        controllers.add(new QsHeaderStylePreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemeCategoryController(context));

@@ -168,32 +168,6 @@
             android:key="qs_tile_style"
             android:title="@string/qs_tile_style_title" />
 
-        <ListPreference
-            android:key="switch_style"
-            android:title="@string/switch_style_title"
-            android:persistent="false"
-            android:entries="@array/switch_style_entries"
-            android:entryValues="@array/switch_style_values" />
-
-    <ListPreference
-	android:key="qs_header_style"
-	android:title="@string/qs_header_style_title"
-	android:persistent="false"
-	android:entries="@array/qs_header_style_entries"
-	android:entryValues="@array/qs_header_style_values" />
-
-        <com.dirtyunicorns.support.preferences.SystemSettingIntListPreference
-	android:key="theming_settings_dashboard_icons"
-	android:title="@string/theming_settings_dashboard_icons_title"
-	android:entries="@array/theming_settings_dashboard_icons_entries"
-	android:entryValues="@array/theming_settings_dashboard_icons_values"
-	android:defaultValue="0" />
-
-	    <com.android.settings.display.FontDialogPreference
-            android:key="custom_font"
-            android:title="@string/font_picker_title"
-            android:persistent="false" /> 
-
      </PreferenceCategory>
 
     <PreferenceCategory

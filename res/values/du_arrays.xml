@@ -66,60 +66,6 @@
         <item>2</item>
     </string-array>
 
-    <!-- Switch styles -->
-    <string-array name="switch_style_entries" translatable="false">
-        <item>@string/switch_default</item>
-        <item>@string/switch_md2</item>
-        <item>@string/switch_oneplus</item>
-        <item>@string/switch_tg</item>
-	<item>@string/switch_narrow</item>
-        <item>@string/switch_contained</item>
-        <item>@string/switch_retro</item>
-    </string-array>
-
-    <string-array name="switch_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-
-    <!-- Settings dashboard icon style -->
-    <string-array name="theming_settings_dashboard_icons_entries" translatable="false">
-        <item>@string/theming_settings_dashboard_icons_default</item>
-        <item>@string/theming_settings_dashboard_icons_default_accent</item>
-        <item>@string/theming_settings_dashboard_icons_default_oneplus</item>
-        <item>@string/theming_settings_dashboard_icons_plain</item>
-        <item>@string/theming_settings_dashboard_icons_plain_accent</item>
-    </string-array>
-
-    <string-array name="theming_settings_dashboard_icons_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <!-- QS header styles -->
-    <string-array name="qs_header_style_entries" translatable="false">
-        <item>@string/qs_header_black</item>
-        <item>@string/qs_header_grey</item>
-        <item>@string/qs_header_lightgrey</item>
-        <item>@string/qs_header_accent</item>
-        <item>@string/qs_header_transparent</item>
-    </string-array>
-    <string-array name="qs_header_style_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
     <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
          config_fingerprintSensorLocation -->
     <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">

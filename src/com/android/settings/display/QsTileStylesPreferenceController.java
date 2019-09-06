@@ -19,6 +19,8 @@ package com.android.settings.display;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.UserHandle;
+import android.content.ContentResolver;
+import android.provider.Settings;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceClickListener;
 import android.support.v7.preference.PreferenceScreen;
@@ -52,6 +54,8 @@ public class QsTileStylesPreferenceController extends AbstractPreferenceControll
     @Override
     public void displayPreference(PreferenceScreen screen) {
         mQsTileStylesPref  = (Preference) screen.findPreference(KEY_QS_TILE_STYLES_FRAGMENT_PREF);
+        if (isSubstratumOverlayInstalled(mContext) && !isForceThemeAllowed())
+            mQsTileStylesPref.setEnabled(false);
     }
 
     @Override
