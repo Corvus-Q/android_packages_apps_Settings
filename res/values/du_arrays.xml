@@ -24,6 +24,7 @@
         <item>@string/system_theme_style_extended</item>
         <item>@string/system_theme_style_chocolate</item>
         <item>@string/system_theme_style_elegant</item>
+        <item>@string/system_theme_style_shishunights</item>
     </string-array>
 
      <string-array name="system_theme_style_values" translatable="false">
@@ -34,6 +35,7 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
+        <item>7</item>
     </string-array>
 
     <!-- QS tile styles -->
