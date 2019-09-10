@@ -48,10 +48,18 @@
     <!-- DU version in About phone -->
     <string name="rom_version_title">DU version</string>
 
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
-    <string name="system_theme_light">Light</string>
-    <string name="system_theme_dark">Dark</string>
+    <!-- Themes -->
+    <string name="theme_category_title">System Theme</string>
+    <string name="system_theme_style_title">UI style</string>
+    <string name="system_theme_style_auto">Wallpaper based</string>
+    <string name="system_theme_style_light">Light UI</string>
+    <string name="system_theme_style_dark">Dark UI</string>
+    <string name="system_theme_style_black">Black UI</string>
+    <string name="system_theme_style_extended">Extended UI</string>
+    <string name="system_theme_style_chocolate">Chocolate UI</string>
+    <string name="system_theme_style_elegant">Elegant UI</string>
+    <string name="theme_applied_toast">Theme applied.</string>
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
 
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
