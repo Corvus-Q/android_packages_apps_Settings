@@ -144,6 +144,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.dirtyunicorns.tweaks.fragments.CustomHeaders;
 import com.dirtyunicorns.tweaks.fragments.GamingMode;
 import com.dirtyunicorns.tweaks.DirtyTweaks;
+import com.dirtyunicorns.tweaks.fragments.Interfaces;
 
 public class SettingsGateway {
 
@@ -274,7 +275,8 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             CustomHeaders.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            Interfaces.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

@@ -169,6 +169,7 @@ public class Settings extends SettingsActivity {
     public static class GamingModeActivity extends SettingsActivity {}
     public static class CustomHeadersActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    public static class InterfacesSettingsActivity extends SettingsActivity { /* empty */ }
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }

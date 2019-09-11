@@ -41,20 +41,6 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
-    <!-- Themes -->
-    <string name="theme_category_title">System Theme</string>
-    <string name="system_theme_style_title">UI style</string>
-    <string name="system_theme_style_auto">Wallpaper based</string>
-    <string name="system_theme_style_light">Light UI</string>
-    <string name="system_theme_style_dark">Dark UI</string>
-    <string name="system_theme_style_black">Black UI</string>
-    <string name="system_theme_style_extended">Extended UI</string>
-    <string name="system_theme_style_chocolate">Chocolate UI</string>
-    <string name="system_theme_style_elegant">Elegant UI</string>
-    <string name="system_theme_style_shishunights">Shishu Nights</string>
-    <string name="theme_applied_toast">Theme applied.</string>
-    <string name="applying_theme_toast">Applying theme, please wait...</string>
-
     <!-- Selinux -->
     <string name="selinux_status">Selinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -71,14 +57,6 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
-    <string name="qs_tile_style_rounded_square">Rounded square</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Tear drop</string>
 
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
