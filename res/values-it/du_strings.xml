@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Changelog -->
-    <string name="changelog_title">Elenco modifiche DU</string>
-    <string name="changelog_summary">Gerrit instance changes</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">enabled</string>
@@ -41,12 +38,6 @@
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Density category -->
     <string name="density_category">Density options</string>
-    <!-- DU version in About phone -->
-    <string name="rom_version_title">Versione DU</string>
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automatico (basato sull\'ora del giorno)</string>
-    <string name="system_theme_light">Chiaro</string>
-    <string name="system_theme_dark">Scuro</string>
     <!-- Selinux -->
     <string name="selinux_status">Stato di SELinux</string>
     <string name="selinux_status_disabled">Disabilitato</string>
@@ -61,13 +52,6 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di alimentazione per accendere la torcia</string>
     <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante accensione per accendere la torcia</string>
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Stile dei tile delle impostazioni rapide</string>
-    <string name="qs_tile_style_default">Predefinite</string>
-    <string name="qs_tile_style_square">Quadrato</string>
-    <string name="qs_tile_style_rounded_square">Quadrato con angoli arrotondati</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Goccia</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Muto, nessun media</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Attivo (muto, nessun media)</string>

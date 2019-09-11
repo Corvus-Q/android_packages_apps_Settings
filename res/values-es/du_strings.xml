@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Changelog -->
-    <string name="changelog_title">Registro de cambios</string>
-    <string name="changelog_summary">Cambios de instancia Gerrit</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> es <xliff:g id="status" ejemplo="disabled">%2$s </xliff:g></string>
     <string name="sim_enabled">habilitado</string>
@@ -41,12 +38,6 @@
     <string name="ringtone2_title">Tono de llamada - SIM 2</string>
     <!-- Density category -->
     <string name="density_category">Opciones de densidad</string>
-    <!-- DU version in About phone -->
-    <string name="rom_version_title">Versión de DU</string>
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automático (basado en la hora del día)</string>
-    <string name="system_theme_light">Claro</string>
-    <string name="system_theme_dark">Oscuro</string>
     <!-- Selinux -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Deshabilitado</string>
@@ -61,13 +52,6 @@
     <string name="torch_power_button_gesture_none">Deshabilitado</string>
     <string name="torch_power_button_gesture_dt">Pulsar doblemente el botón de encendido para encender la linterna</string>
     <string name="torch_power_button_gesture_lp">Pulsación larga del botón de encendido para encender la linterna</string>
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Estilo de ajustes rapidos</string>
-    <string name="qs_tile_style_default">Por defecto</string>
-    <string name="qs_tile_style_square">Cuadrado</string>
-    <string name="qs_tile_style_rounded_square">Cuadrado redondeado</string>
-    <string name="qs_tile_style_squircle">Cuadrado con esquinas redondeadas</string>
-    <string name="qs_tile_style_tear_drop">Lágrima</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Silenciado, sin sonido multimedia</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Silenciado, sin sonido multimedia</string>

@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Changelog -->
-    <string name="changelog_title">Registo de alterações</string>
-    <string name="changelog_summary">Gerrit instance changes</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">enabled</string>
@@ -41,12 +38,6 @@
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Density category -->
     <string name="density_category">Density options</string>
-    <!-- DU version in About phone -->
-    <string name="rom_version_title">DU version</string>
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
-    <string name="system_theme_light">Light</string>
-    <string name="system_theme_dark">Dark</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -61,13 +52,6 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
-    <string name="qs_tile_style_rounded_square">Rounded square</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Tear drop</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
     <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>

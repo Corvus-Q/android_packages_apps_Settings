@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Changelog -->
-    <string name="changelog_title">Újdonságok</string>
-    <string name="changelog_summary">Gerrit instance changes</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">engedélyezve</string>
@@ -41,12 +38,6 @@
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Density category -->
     <string name="density_category">Sűrűségi beállítások</string>
-    <!-- DU version in About phone -->
-    <string name="rom_version_title">DU verzió</string>
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automatikus (napszakhoz időzítve)</string>
-    <string name="system_theme_light">Világos</string>
-    <string name="system_theme_dark">Sötét</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux állapota</string>
     <string name="selinux_status_disabled">Letiltva</string>
@@ -61,13 +52,6 @@
     <string name="torch_power_button_gesture_none">Kikapcsolva</string>
     <string name="torch_power_button_gesture_dt">Zseblámpa indítása a bekapcsológomb dupla nyomásával</string>
     <string name="torch_power_button_gesture_lp">Zseblámpa indítása a bekapcsológomb hosszan nyomásával</string>
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">A Gyorsbeállítás-csempék stílusa</string>
-    <string name="qs_tile_style_default">Alapértelmezett</string>
-    <string name="qs_tile_style_square">Négyzet</string>
-    <string name="qs_tile_style_rounded_square">Lekerekített sarkok</string>
-    <string name="qs_tile_style_squircle">Kerekített sarkok</string>
-    <string name="qs_tile_style_tear_drop">Könnycsepp</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
     <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>

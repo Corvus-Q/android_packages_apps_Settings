@@ -15,9 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Changelog -->
-    <string name="changelog_title">Log de Alterações Du</string>
-    <string name="changelog_summary">Alterações de instância de Gerrit</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> é <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">ativo</string>
@@ -41,12 +38,6 @@
     <string name="ringtone2_title">Toque de chamada - SIM 2</string>
     <!-- Density category -->
     <string name="density_category">Opções de densidade</string>
-    <!-- DU version in About phone -->
-    <string name="rom_version_title">Versão Dirty Unicorns</string>
-    <!-- System theme -->
-    <string name="system_theme_wallpaper">Automático (com base na hora do dia)</string>
-    <string name="system_theme_light">Claro</string>
-    <string name="system_theme_dark">Escuro</string>
     <!-- Selinux -->
     <string name="selinux_status">Status do SELinux</string>
     <string name="selinux_status_disabled">Desativado</string>
@@ -61,13 +52,6 @@
     <string name="torch_power_button_gesture_none">Desativar</string>
     <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga para ativar a lanterna</string>
     <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
-    <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Estilo das Configurações Rápidas</string>
-    <string name="qs_tile_style_default">Padrão</string>
-    <string name="qs_tile_style_square">Quadrado</string>
-    <string name="qs_tile_style_rounded_square">Cantos arredondados</string>
-    <string name="qs_tile_style_squircle">Quadrado redondo</string>
-    <string name="qs_tile_style_tear_drop">Gota de lágrima</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Mudo, sem mídia</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Ligado (mudo, sem mídia)</string>
