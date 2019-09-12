@@ -34,7 +34,8 @@ public class CrvsVersionPreferenceController extends BasePreferenceController {
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/Corvus-ROM/");
     private static final String TAG = "crvsDialogCtrl";
-    private static final String CRVS_VERSION_PROPERTY = "ro.du.version";
+    private static final String ROM_VERSION_PROP = "ro.du.build.version";
+    private static final String ROM_RELEASETYPE_PROP = "ro.du.build.type";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public CrvsVersionPreferenceController(Context context, String preferenceKey) {
@@ -46,9 +47,14 @@ public class CrvsVersionPreferenceController extends BasePreferenceController {
     }
 
     public CharSequence getSummary() {
-        String crvs = SystemProperties.get(CRVS_VERSION_PROPERTY,
+        String crvsVersion = SystemProperties.get(ROM_VERSION_PROP,
                 mContext.getString(R.string.device_info_default));
-        return crvs;
+        String crvsReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
+                this.mContext.getString(R.string.device_info_default));
+        if (!crvsVersion.isEmpty() && !crvsReleasetype.isEmpty())
+            return crvsVersion + " | " + crvsReleasetype;
+        else
+            return mContext.getString(R.string.crvs_version_default);
     }
 
     public boolean handlePreferenceTreeClick(Preference preference) {
