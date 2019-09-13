@@ -44,7 +44,7 @@ public class DuVersionDetailPreferenceController extends BasePreferenceControlle
     }
 
     public CharSequence getSummary() {
-        String Du = SystemProperties.get(DU_PROPERTY,
+        String du = SystemProperties.get(DU_PROPERTY,
                 this.mContext.getString(R.string.device_info_default));
         return du;
     }

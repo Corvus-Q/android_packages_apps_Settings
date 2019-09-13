@@ -87,7 +87,6 @@ public class DuInfoDialogFragment extends InstrumentedDialogFragment {
         new DuDateDialogController(this).initialize();
         new DuDeviceDialogController(this).initialize();
         new DuMaintainerDialogController(this).initialize();
-        new DuTypeDialogController(this).initialize();
         new DuVersionDialogController(this).initialize();
     }
 }

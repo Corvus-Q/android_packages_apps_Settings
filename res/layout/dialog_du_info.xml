@@ -42,7 +42,7 @@
             android:id="@+id/du_version_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/du_version"/>
+            android:text="@string/du_build_version"/>
         <TextView
             style="@style/device_info_dialog_value"
             android:id="@+id/du_version_value"
@@ -58,18 +58,6 @@
         <TextView
             style="@style/device_info_dialog_value"
             android:id="@+id/du_date_value"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:id="@+id/du_type_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/du_type"/>
-        <TextView
-            style="@style/device_info_dialog_value"
-            android:id="@+id/du_type_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

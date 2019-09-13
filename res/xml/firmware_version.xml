@@ -23,12 +23,6 @@
     settings:keywords="@string/keywords_android_version">
 
     <Preference
-        android:title="@string/du_maintainer"
-        android:key="os_du_maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.DuMaintainerPreferenceController" />
-
-    <Preference
         android:title="@string/firmware_version"
         android:key="os_firmware_version"
         android:summary="@string/summary_placeholder"
@@ -45,12 +39,6 @@
         android:key="security_key"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController" />
 
-    <Preference
-        android:title="@string/module_version"
-        android:key="module_version"
-        android:summary="@string/summary_placeholder"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController" />
-
     <Preference 
         android:title="@string/baseband_version"
         android:key="base_band"
@@ -62,11 +50,5 @@
         android:key="kernel_version"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController" />
-
-    <Preference
-        android:title="@string/build_number"
-        android:key="os_build_number"
-        android:summary="@string/summary_placeholder"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController" />
 
 </PreferenceScreen>

@@ -55,7 +55,7 @@
     <string name="applying_theme_toast">Applying theme, please wait...</string>
 
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Selinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
@@ -197,9 +197,9 @@
     <string name="du_info">DU Version</string>
     <string name="du_maintainer">Maintainer</string>
     <string name="du_date">Build date</string>
-    <string name="du_type">Build type</string>
-    <string name="du_device">Device</string>
-    <string name="du_version">Du-Rex Version</string>
+    <string name="du_device">Device code name</string>
+    <string name="du_version">Build version</string>
+    <string name="du_build_version">DU-REX Version</string>
 
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
