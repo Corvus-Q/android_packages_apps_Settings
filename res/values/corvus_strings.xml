@@ -83,5 +83,8 @@
     <!-- Specs -->
     <string name="specs_title">Phone Specifications</string>
 
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Color bucket</string>
+
 </resources>
 
