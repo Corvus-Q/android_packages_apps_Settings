@@ -26,7 +26,8 @@
         android:summary="@string/dirtytweaks_summary"
         android:icon="@drawable/ic_settings_dirtytweaks"
         android:order="-130"
-        android:fragment="com.dirtyunicorns.tweaks.DirtyTweaks"/>
+        android:fragment="com.dirtyunicorns.tweaks.DirtyTweaks"
+        settings:controller="com.dirtyunicorns.tweaks.TopLevelEntryPreferenceController" />
 
     <Preference
         android:key="top_level_network"
