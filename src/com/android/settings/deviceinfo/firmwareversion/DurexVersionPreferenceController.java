@@ -34,7 +34,7 @@ public class DurexVersionPreferenceController extends BasePreferenceController {
 
     private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/du-rex/");
     private static final String TAG = "durexDialogCtrl";
-    private static final DUREX_VERSION_PROPERTY = "ro.du.version";
+    private static final String DUREX_VERSION_PROPERTY = "ro.du.version";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public DurexVersionPreferenceController(Context context, String preferenceKey) {
