@@ -27,5 +27,10 @@
     <color name="notification_importance_selection_bg">@*android:color/material_grey_800</color>
     <color name="notification_importance_button_selected">#AECBFA</color> <!-- material blue 200 -->
     <color name="notification_importance_button_unselected">#5F6368</color>
+
+    <!-- DU Tweaks -->
+    <color name="BottomBarBackgroundColor">@android:color/black</color>
+    <color name="bottom_nav_text_icon_active">@android:color/white</color>
+    <color name="bottom_nav_text_icon_inactive">@*android:color/hint_foreground_light</color>
 </resources>
 
