@@ -125,18 +125,18 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             "captioning_preference_screen";
     private static final String DISPLAY_MAGNIFICATION_PREFERENCE_SCREEN =
             "magnification_preference_screen";
-    private static final String FONT_SIZE_PREFERENCE_SCREEN =
-            "font_size_preference_screen";
+    /*private static final String FONT_SIZE_PREFERENCE_SCREEN =
+            "font_size_preference_screen";*/
     private static final String AUTOCLICK_PREFERENCE_SCREEN =
             "autoclick_preference";
     private static final String VIBRATION_PREFERENCE_SCREEN =
             "vibration_preference_screen";
-    private static final String DISPLAY_DALTONIZER_PREFERENCE_SCREEN =
-            "daltonizer_preference";
+    /*private static final String DISPLAY_DALTONIZER_PREFERENCE_SCREEN =
+            "daltonizer_preference";*/
     private static final String ACCESSIBILITY_CONTROL_TIMEOUT_PREFERENCE =
             "accessibility_control_timeout_preference_fragment";
-    private static final String DARK_UI_MODE_PREFERENCE =
-            "dark_ui_mode_accessibility";
+    /*private static final String DARK_UI_MODE_PREFERENCE =
+            "dark_ui_mode_accessibility";*/
     private static final String LIVE_CAPTION_PREFERENCE_KEY =
             "live_caption";
 
@@ -235,18 +235,18 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
     private ListPreference mSelectLongPressTimeoutPreference;
     private Preference mCaptioningPreferenceScreen;
     private Preference mDisplayMagnificationPreferenceScreen;
-    private Preference mFontSizePreferenceScreen;
+    //private Preference mFontSizePreferenceScreen;
     private Preference mAutoclickPreferenceScreen;
     private Preference mAccessibilityShortcutPreferenceScreen;
-    private Preference mDisplayDaltonizerPreferenceScreen;
+    //private Preference mDisplayDaltonizerPreferenceScreen;
     private Preference mHearingAidPreference;
     private Preference mVibrationPreferenceScreen;
     private Preference mLiveCaptionPreference;
     private SwitchPreference mToggleInversionPreference;
     private ColorInversionPreferenceController mInversionPreferenceController;
     private AccessibilityHearingAidPreferenceController mHearingAidPreferenceController;
-    private SwitchPreference mDarkUIModePreference;
-    private DarkUIPreferenceController mDarkUIPreferenceController;
+    /*private SwitchPreference mDarkUIModePreference;
+    private DarkUIPreferenceController mDarkUIPreferenceController;*/
     private LiveCaptionPreferenceController mLiveCaptionPreferenceController;
 
     private int mLongPressTimeoutDefault;
@@ -516,13 +516,13 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         configureMagnificationPreferenceIfNeeded(mDisplayMagnificationPreferenceScreen);
 
         // Font size.
-        mFontSizePreferenceScreen = findPreference(FONT_SIZE_PREFERENCE_SCREEN);
+        //mFontSizePreferenceScreen = findPreference(FONT_SIZE_PREFERENCE_SCREEN);
 
         // Autoclick after pointer stops.
         mAutoclickPreferenceScreen = findPreference(AUTOCLICK_PREFERENCE_SCREEN);
 
         // Display color adjustments.
-        mDisplayDaltonizerPreferenceScreen = findPreference(DISPLAY_DALTONIZER_PREFERENCE_SCREEN);
+        //mDisplayDaltonizerPreferenceScreen = findPreference(DISPLAY_DALTONIZER_PREFERENCE_SCREEN);
 
         // Accessibility shortcut.
         mAccessibilityShortcutPreferenceScreen = findPreference(ACCESSIBILITY_SHORTCUT_PREFERENCE);
@@ -531,11 +531,11 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         mVibrationPreferenceScreen = findPreference(VIBRATION_PREFERENCE_SCREEN);
 
         // Dark Mode.
-        mDarkUIModePreference = findPreference(DARK_UI_MODE_PREFERENCE);
+        /*mDarkUIModePreference = findPreference(DARK_UI_MODE_PREFERENCE);
         mDarkUIPreferenceController = new DarkUIPreferenceController(getContext(),
                 DARK_UI_MODE_PREFERENCE);
         mDarkUIPreferenceController.setParentFragment(this);
-        mDarkUIPreferenceController.displayPreference(getPreferenceScreen());
+        mDarkUIPreferenceController.displayPreference(getPreferenceScreen());*/
     }
 
     private void updateAllPreferences() {
@@ -728,18 +728,18 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
             PreferenceCategory displayCategory =
                     mCategoryToPrefCategoryMap.get(CATEGORY_DISPLAY);
             experimentalCategory.removePreference(mToggleInversionPreference);
-            experimentalCategory.removePreference(mDisplayDaltonizerPreferenceScreen);
+            /*experimentalCategory.removePreference(mDisplayDaltonizerPreferenceScreen);
             mDisplayDaltonizerPreferenceScreen.setOrder(
-                    mDisplayMagnificationPreferenceScreen.getOrder() + 1);
+                    mDisplayMagnificationPreferenceScreen.getOrder() + 1);*/
             mToggleInversionPreference.setOrder(
-                    mDisplayDaltonizerPreferenceScreen.getOrder() + 1);
+                    mDisplayMagnificationPreferenceScreen.getOrder() + 1);
             mToggleLargePointerIconPreference.setOrder(
                     mToggleInversionPreference.getOrder() + 1);
             mToggleDisableAnimationsPreference.setOrder(
                     mToggleLargePointerIconPreference.getOrder() + 1);
             mToggleInversionPreference.setSummary(R.string.summary_empty);
             displayCategory.addPreference(mToggleInversionPreference);
-            displayCategory.addPreference(mDisplayDaltonizerPreferenceScreen);
+            //displayCategory.addPreference(mDisplayDaltonizerPreferenceScreen);
         }
 
         // Text contrast.
@@ -751,7 +751,7 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
         mInversionPreferenceController.updateState(mToggleInversionPreference);
 
         // Dark Mode
-        mDarkUIPreferenceController.updateState(mDarkUIModePreference);
+        //mDarkUIPreferenceController.updateState(mDarkUIModePreference);
 
         // Power button ends calls.
         if (KeyCharacterMap.deviceHasKey(KeyEvent.KEYCODE_POWER)
@@ -791,12 +791,12 @@ public class AccessibilitySettings extends SettingsPreferenceFragment implements
 
         updateFeatureSummary(Settings.Secure.ACCESSIBILITY_CAPTIONING_ENABLED,
                 mCaptioningPreferenceScreen);
-        updateFeatureSummary(Settings.Secure.ACCESSIBILITY_DISPLAY_DALTONIZER_ENABLED,
-                mDisplayDaltonizerPreferenceScreen);
+        /*updateFeatureSummary(Settings.Secure.ACCESSIBILITY_DISPLAY_DALTONIZER_ENABLED,
+                mDisplayDaltonizerPreferenceScreen);*/
 
         updateMagnificationSummary(mDisplayMagnificationPreferenceScreen);
 
-        updateFontSizeSummary(mFontSizePreferenceScreen);
+        //updateFontSizeSummary(mFontSizePreferenceScreen);
 
         updateAutoclickSummary(mAutoclickPreferenceScreen);
 

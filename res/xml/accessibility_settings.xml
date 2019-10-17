@@ -46,6 +46,7 @@
             android:key="display_category"
             android:title="@string/display_category_title">
 
+        <!--
         <Preference
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
             android:key="font_size_preference_screen"
@@ -61,7 +62,7 @@
         <SwitchPreference
             android:key="dark_ui_mode_accessibility"
             android:title="@string/dark_ui_mode"
-            settings:searchable="false"/>
+            settings:searchable="false"/> -->
 
         <Preference
             android:fragment="com.android.settings.accessibility.MagnificationPreferenceFragment"
