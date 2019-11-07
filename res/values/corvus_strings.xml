@@ -73,5 +73,9 @@
     <string name="accent_color">Accent picker</string>
     <string name="accent_summary">System wide accent maker</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
 </resources>
 
