@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.dirtyunicorns.tweaks.DirtyTweaks;
+import com.dirtyunicorns.tweaks.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -288,6 +289,7 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             DirtyTweaks.class.getName(),
+            GamingMode.class.getName(),
             RunningServices.class.getName()
     };
 
@@ -328,6 +330,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.DirtyTweaksActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
     };
 }
