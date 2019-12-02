@@ -42,6 +42,14 @@
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
 
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
     <!-- Changelog -->
     <Preference
         android:key="changelog"
