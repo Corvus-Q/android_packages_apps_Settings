@@ -46,6 +46,20 @@
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
+    <com.android.settingslib.RestrictedPreference
+        android:key="wallpaper"
+        android:title="@string/wallpaper_settings_title"
+        settings:keywords="@string/keywords_display_wallpaper"
+        settings:useAdminDisabledSummary="true"
+        settings:controller="com.android.settings.display.WallpaperPreferenceController">
+    </com.android.settingslib.RestrictedPreference>
+
+    <SwitchPreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        settings:keywords="@string/keywords_dark_ui_mode"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
         android:key="screen_timeout"
@@ -147,36 +161,6 @@
         android:title="@string/game_driver_dashboard_title"
         android:summary="@string/game_driver_dashboard_summary"
         android:fragment="com.android.settings.development.gamedriver.GameDriverDashboard" />
-
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-    <SwitchPreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        settings:keywords="@string/keywords_dark_ui_mode"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
-
-        <com.android.settingslib.RestrictedPreference
-            android:key="wallpaper"
-            android:title="@string/wallpaper_settings_title"
-            settings:keywords="@string/keywords_display_wallpaper"
-            settings:useAdminDisabledSummary="true"
-            settings:controller="com.android.settings.display.WallpaperPreferenceController">
-        </com.android.settingslib.RestrictedPreference>
-
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="density_category"
