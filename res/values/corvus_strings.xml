@@ -68,5 +68,10 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <string name="themes_title">Themes</string>
+    <string name="themes_summary">accent theming</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
+
 </resources>
 

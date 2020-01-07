@@ -164,4 +164,10 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+     <Preference
+         android:key="themes"
+         android:title="@string/themes_title"
+         android:summary="@string/themes_summary"
+         android:fragment="com.android.settings.corvus.CorvusThemes" />
+
 </PreferenceScreen>
