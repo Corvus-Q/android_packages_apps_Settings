@@ -91,7 +91,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 mGesturePillSwitchChecked = gesturePillSwitch.isChecked() ? true : false;
             }
         });
-        return new AlertDialog.Builder(getContext())
+        return new AlertDialog.Builder(getContext(), R.style.GestureDialogTheme)
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
                 .setView(view)
