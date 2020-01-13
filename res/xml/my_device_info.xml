@@ -169,11 +169,4 @@
         android:title="@string/status_up_time"
         android:summary="@string/summary_placeholder"/>
 
-    <!-- SELinux status information -->
-    <Preference
-        android:key="selinux_status"
-        android:order="48"
-        android:title="@string/selinux_status"
-        android:summary="@string/selinux_status_enforcing"/>
-
 </PreferenceScreen>
