@@ -38,6 +38,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
 
     private boolean mArrowSwitchChecked;
     private boolean mGesturePillSwitchChecked;
+    private boolean mEdgeHapticSwitchChecked;
 
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
@@ -91,6 +92,16 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 mGesturePillSwitchChecked = gesturePillSwitch.isChecked() ? true : false;
             }
         });
+        final Switch egdeHapticSwitch = view.findViewById(R.id.back_gesture_haptic);
+        mEdgeHapticSwitchChecked = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.BACK_GESTURE_HAPTIC, 0) == 1;
+        egdeHapticSwitch.setChecked(mEdgeHapticSwitchChecked);
+        egdeHapticSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mEdgeHapticSwitchChecked = egdeHapticSwitch.isChecked() ? true : false;
+            }
+        });
         return new AlertDialog.Builder(getContext(), R.style.GestureDialogTheme)
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
@@ -105,6 +116,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                             getOverlayManager(), sensitivity);
                     Settings.Secure.putInt(getActivity().getContentResolver(),
                             Settings.Secure.SHOW_BACK_ARROW_GESTURE, mArrowSwitchChecked ? 1 : 0);
+                    Settings.System.putInt(getActivity().getContentResolver(),
+                            Settings.System.BACK_GESTURE_HAPTIC, mEdgeHapticSwitchChecked ? 1 : 0);
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.GESTURE_PILL_TOGGLE, mGesturePillSwitchChecked ? 1 : 0);
                     SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
