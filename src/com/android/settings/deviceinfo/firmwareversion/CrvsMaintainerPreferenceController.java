@@ -25,12 +25,12 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class DurexMaintainerPreferenceController extends BasePreferenceController {
+public class CrvsMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "DurexMaintainerPreferenceController";
-    private static final String ROM_PROPERTY = "ro.durex.maintainer";
+    private static final String TAG = "CrvsMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.crvs.maintainer";
 
-    public DurexMaintainerPreferenceController(Context context, String key) {
+    public CrvsMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 

@@ -22,10 +22,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-<PreferenceScreen
-    android:layout="@layout/du_logo_layout"
-    android:key="du_logo" />
-
     <!--Android version-->
     <Preference
         android:key="os_firmware_version"
@@ -34,21 +30,21 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Durex version -->
+    <!-- Corvus version -->
     <Preference
-         android:key="durex_version"
-         android:title="@string/durex_version"
+         android:key="crvs_version"
+         android:title="@string/crvs_version"
          android:summary="@string/summary_placeholder"
          settings:enableCopying="true"
-         settings:controller="com.android.settings.deviceinfo.firmwareversion.DurexVersionPreferenceController"/>
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
 
-    <!-- Durex maintainer -->
+    <!-- Corvus maintainer -->
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.DurexMaintainerPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
