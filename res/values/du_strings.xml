@@ -123,11 +123,6 @@
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
     <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="back_gesture_haptic">Enable haptic tick effect on back gesture</string>
-
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
 
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
@@ -173,9 +168,6 @@
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
     <string name="du_themes_summary">Life is like a box of crayons..</string>
-
-    <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
 
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
