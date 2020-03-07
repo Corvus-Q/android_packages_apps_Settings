@@ -231,4 +231,9 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Length of the gesture navigation bar</string>
+    <string name="home_handle_low_label">Short</string>
+    <string name="home_handle_high_label">Long</string>
 </resources>
