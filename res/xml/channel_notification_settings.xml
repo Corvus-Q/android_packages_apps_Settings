@@ -121,7 +121,7 @@
             ledPreview="true"
             android:order="18"
             android:title="@string/custom_light_title"
-            settings:defaultColorValue="0xFFFFFFFF" />
+            android:defaultValue="0xFFFFFFFF" />
 
         <com.dirtyunicorns.support.preferences.CustomSeekBarPreference
             android:key="custom_light_on_time"
