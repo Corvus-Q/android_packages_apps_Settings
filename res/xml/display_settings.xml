@@ -134,21 +134,6 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
-    <Preference
-        android:key="display_cutout_force_fullscreen_settings"
-        android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary"
-        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
-        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
-
-    <com.dirtyunicorns.support.preferences.SystemSettingListPreference
-        android:key="display_cutout_hidden"
-        android:title="@string/display_cutout_mode_title"
-        android:entries="@array/display_cutout_mode_entries"
-        android:entryValues="@array/display_cutout_mode_values"
-        android:defaultValue="0"
-        settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
-
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
