@@ -36,18 +36,11 @@
 
     <!-- Corvus version -->
     <Preference
-        android:key="crvs_version"
-        android:title="@string/crvs_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
-
-    <!-- Corvus maintainer -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/maintainer_name"
-        settings:enableCopying="true" />
+         android:key="crvs_version"
+         android:title="@string/crvs_version"
+         android:summary="@string/summary_placeholder"
+         settings:enableCopying="true"
+         settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference

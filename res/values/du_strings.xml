@@ -22,8 +22,6 @@
     <string name="crvs_version">Corvus version</string>
     <string name="crvs_version_default">Unknown</string>
     <string name="keywords_corvus_version">corvus version</string>
-    <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Genkzsz</string>
 
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
