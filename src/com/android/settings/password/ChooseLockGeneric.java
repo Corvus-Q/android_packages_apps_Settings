@@ -79,8 +79,6 @@ import com.android.settingslib.widget.FooterPreferenceMixinCompat;
 
 import java.util.List;
 
-import com.android.internal.util.custom.faceunlock.FaceUnlockUtils;
-
 public class ChooseLockGeneric extends SettingsActivity {
     public static final String CONFIRM_CREDENTIALS = "confirm_credentials";
 
@@ -881,7 +879,9 @@ public class ChooseLockGeneric extends SettingsActivity {
         private void removeAllFaceForUserAndFinish(final int userId, RemovalTracker tracker) {
             if (mFaceManager != null && mFaceManager.isHardwareDetected()) {
                 if (mFaceManager.hasEnrolledTemplates(userId)) {
-                    FaceManager.RemovalCallback removalCallback =
+                    mFaceManager.setActiveUser(userId);
+                    Face face = new Face(null, 0, 0);
+                    mFaceManager.remove(face, userId,
                             new FaceManager.RemovalCallback() {
                         @Override
                         public void onRemovalError(Face face, int errMsgId, CharSequence err) {
@@ -894,17 +894,7 @@ public class ChooseLockGeneric extends SettingsActivity {
                                 removeManagedProfileFacesAndFinishIfNecessary(userId, tracker);
                             }
                         }
-                    };
-                    if (FaceUnlockUtils.hasMotoFaceUnlock()){
-                        final List<Face> faces = mFaceManager.getEnrolledFaces(userId);
-                        if (!faces.isEmpty()) {
-                            mFaceManager.remove(faces.get(0), userId, removalCallback);
-                        }
-                        return;
-                    }
-                    mFaceManager.setActiveUser(userId);
-                    Face face = new Face(null, 0, 0);
-                    mFaceManager.remove(face, userId, removalCallback);
+                    });
                 } else {
                     // No faces in this user, we may also want to delete managed profile faces
                     removeManagedProfileFacesAndFinishIfNecessary(userId, tracker);
