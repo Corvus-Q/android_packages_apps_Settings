@@ -36,6 +36,7 @@ public class CrvsVersionPreferenceController extends BasePreferenceController {
     private static final String TAG = "crvsDialogCtrl";
     private static final String ROM_VERSION_PROP = "ro.du.build.version";
     private static final String ROM_RELEASETYPE_PROP = "ro.du.build.type";
+    private static final String ROM_CODENAME_PROP = "ro.corvus.codename";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
 
     public CrvsVersionPreferenceController(Context context, String preferenceKey) {
@@ -51,8 +52,10 @@ public class CrvsVersionPreferenceController extends BasePreferenceController {
                 mContext.getString(R.string.device_info_default));
         String crvsReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
                 this.mContext.getString(R.string.device_info_default));
+        String crvsCodename = SystemProperties.get(ROM_CODENAME_PROP,
+                mContext.getString(R.string.device_info_default));
         if (!crvsVersion.isEmpty() && !crvsReleasetype.isEmpty())
-            return crvsVersion + " | " + crvsReleasetype;
+            return crvsVersion + " | " + crvsCodename + " | " + crvsReleasetype;
         else
             return mContext.getString(R.string.crvs_version_default);
     }
