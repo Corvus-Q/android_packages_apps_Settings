@@ -368,4 +368,8 @@ phone.</string>
     <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 
     <string name="specs_title">Phone Specifications</string>
+
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
