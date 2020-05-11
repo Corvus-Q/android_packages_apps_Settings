@@ -109,9 +109,11 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
+    private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
 
     private String mBatDesCap;
     private String mBatCurCap;
+    private String mBatChgCyc;
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -134,6 +136,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     PowerGaugePreference mCurrentBatteryCapacity;
     @VisibleForTesting
     PowerGaugePreference mDesignedBatteryCapacity;
+    @VisibleForTesting
+    PowerGaugePreference mBatteryChargeCycles;
     @VisibleForTesting
     PowerGaugePreference mLastFullChargePref;
     @VisibleForTesting
@@ -277,6 +281,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 KEY_CURRENT_BATTERY_CAPACITY);
         mDesignedBatteryCapacity = (PowerGaugePreference) findPreference(
                 KEY_DESIGNED_BATTERY_CAPACITY);
+        mBatteryChargeCycles = (PowerGaugePreference) findPreference(
+                KEY_BATTERY_CHARGE_CYCLES);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.battery_footer_summary);
@@ -435,6 +441,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
         mBatDesCap = getResources().getString(R.string.config_batDesCap);
         mBatCurCap = getResources().getString(R.string.config_batCurCap);
+        mBatChgCyc = getResources().getString(R.string.config_batChargeCycle);
 
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
@@ -444,6 +451,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryTempPref.setSubtitle(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
         mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
         mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
+        mBatteryChargeCycles.setSubtitle(parseBatteryCycle(mBatChgCyc));
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
@@ -607,6 +615,19 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                     + file, ioe);
         } catch (NumberFormatException nfe) {
             Log.e(TAG, "Read a badly formatted battery capacity from "
+                    + file, nfe);
+        }
+        return getResources().getString(R.string.status_unavailable);
+    }
+
+    private String parseBatteryCycle(String file) {
+        try {
+            return Integer.parseInt(readLine(file)) + " Cycles";
+        } catch (IOException ioe) {
+            Log.e(TAG, "Cannot read battery cycle from "
+                    + file, ioe);
+        } catch (NumberFormatException nfe) {
+            Log.e(TAG, "Read a badly formatted battery cycle from "
                     + file, nfe);
         }
         return getResources().getString(R.string.status_unavailable);
