@@ -379,4 +379,6 @@ phone.</string>
 
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access toast</string>
+
+    <string name="specs_title">Phone Specifications</string>
 </resources>
