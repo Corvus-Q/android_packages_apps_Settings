@@ -57,6 +57,14 @@
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.du.Changelog" />
 
+    <!-- Phone Specs -->
+    <Preference
+        android:key="phone_specs"
+        android:title="@string/specs_title"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SpecsPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
