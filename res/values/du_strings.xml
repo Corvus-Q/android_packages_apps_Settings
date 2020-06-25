@@ -361,4 +361,8 @@ phone.</string>
 
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access toast</string>
+
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+
 </resources>
