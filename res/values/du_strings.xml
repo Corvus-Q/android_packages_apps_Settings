@@ -371,5 +371,6 @@ phone.</string>
 
     <!-- Corvus maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="corvus_maintainer">Unofficial Maintainer</string>
 
 </resources>
