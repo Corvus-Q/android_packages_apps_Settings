@@ -219,7 +219,7 @@
     <string name="security_settings_face_require_swipe">Deslice hacia arriba para desbloquear</string>
     <string name="security_settings_face_require_swipe_summary">Desliza hacia arriba en la pantalla de bloqueo para usar el desbloqueo facial</string>
     <!-- Search keywords -->
-    <string name="keywords_notification_log">notifications, notification log</string>
+    <string name="keywords_notification_log">Notificaciones, log de notificación</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
 </resources>
