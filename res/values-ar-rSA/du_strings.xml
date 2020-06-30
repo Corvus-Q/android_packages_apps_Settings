@@ -73,22 +73,21 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(سبات عميق: %1$d%2$s)</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">اضغط لعرض المعلومات</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">المنصة</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your 
-phone.</string>
+    <string name="total_ram">إجمالي ذاكرة الوصول العشوائي</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">اسحب بإصبعك يمينا ويسارا لتجاهل الإشعارات</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">لتجاهل الإشعارات، اسحب يمينا ويسارا على مستشعر بصمة الإصبع بالجزء الخلفى لهاتفك.</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+    <string name="prevent_ringing_option_mute_no_media">كتم، لا وسائط</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">تشغيل (كتم، لا الوسائط)</string>
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_high_label">أسفل</string>
+    <string name="back_options_dialog_title">خيارات</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
