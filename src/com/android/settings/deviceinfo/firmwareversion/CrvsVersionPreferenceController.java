@@ -32,7 +32,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class CrvsVersionPreferenceController extends BasePreferenceController {
 
-    private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/Corvus-OS/");
+    private static final Uri INTENT_URI_DATA = Uri.parse("https://github.com/Corvus-ROM/");
     private static final String TAG = "crvsDialogCtrl";
     private static final String CRVS_VERSION_PROPERTY = "ro.du.version";
     private final PackageManager mPackageManager = this.mContext.getPackageManager();
