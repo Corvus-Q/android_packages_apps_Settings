@@ -16,6 +16,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
+    <string name="build_date">Build date</string>
     <string name="crvs_version">Corvus sürümü</string>
     <string name="crvs_version_default">Bilinmiyor</string>
     <string name="keywords_corvus_version">corvus sürümü</string>
