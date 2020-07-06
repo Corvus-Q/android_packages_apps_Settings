@@ -87,11 +87,11 @@
     <string name="prevent_ringing_option_mute_no_media_summary">Be (némítás, nincs média)</string>
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Teljes</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_high_label">Alul</string>
+    <string name="back_options_dialog_title">Opciók</string>
+    <string name="back_height_message">A vissza mozdulat felismeréséhez használt képernyő magasság.</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">Világos szín</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
