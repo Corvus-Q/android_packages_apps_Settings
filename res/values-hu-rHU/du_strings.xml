@@ -92,13 +92,13 @@
     <string name="back_height_message">A vissza mozdulat felismeréséhez használt képernyő magasság.</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Világos szín</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_on_time_title">A fény bekapcsolt állapotának ideje pulzálás közben (ms)</string>
+    <string name="custom_light_off_time_title">A fény kikapcsolt állapotának ideje pulzálás közben (ms)\"</string>
+    <string name="value_equals_default">alapértelmezett</string>
     <!-- Ambient Display wake gestures/music ticker -->
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="ambient_wake_gestures_title">Környezeti kijelző ébresztő mozdulatai</string>
+    <string name="ambient_wake_gestures_summary">Környezeti kijelző megjelenítése normál képernyőzár helyett ébresztéskor</string>
+    <string name="pulse_on_new_tracks_title">Zeneszám a környezeti kijelzőn</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Wake on plug -->
