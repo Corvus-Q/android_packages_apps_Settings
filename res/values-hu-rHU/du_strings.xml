@@ -106,37 +106,37 @@
     <string name="wake_when_plugged_or_unplugged_summary">A képernyő bekapcsolása amikor csatlakoztatja vagy eltávolítja a töltőt</string>
     <!-- Battery charge warning -->
     <string name="notification_sound_battery_charge_title">Engedélyezi az akkumulátor töltés-szint figyelmeztetőt</string>
-    <string name="notification_sound_battery_charge_summary">Play a sound when battery reaches charge level</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_summary">Hang lejátszása, ha az akkumulátor fel van töltve</string>
+    <string name="notification_battery_charge_level_title">Akkumulátor-töltés figyelmeztető</string>
+    <string name="notification_battery_charge_level_summary">Hang lejátszása, amikor az akkumulátor elér egy szintet töltés közben</string>
+    <string name="notification_battery_charge_level_seek_bar">Töltöttségi szint</string>
+    <string name="notification_battery_charge_level_ringtone">Csengőhang</string>
+    <string name="notification_battery_charge_level_silent">Néma</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_subtitle">Autorotation, 0, 90, 180, 270 degrees</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Forgatás</string>
+    <string name="display_rotation_subtitle">Automatikus forgatás, 0, 90, 180, 270 fok</string>
+    <string name="display_rotation_disabled">Letiltva</string>
+    <string name="display_rotation_unit">fokok</string>
+    <string name="display_rotation_category_title">Forgatás módja</string>
+    <string name="display_rotation_0_title">0 fok</string>
+    <string name="display_rotation_90_title">90 fok</string>
+    <string name="display_rotation_180_title">180 fok</string>
+    <string name="display_rotation_270_title">270 fok</string>
     <!-- Themes -->
-    <string name="du_themes_title">Themes</string>
-    <string name="du_themes_summary">Life is like a box of crayons..</string>
+    <string name="du_themes_title">Témák</string>
+    <string name="du_themes_summary">Az élet olyan, mint egy doboz kréta..</string>
     <!-- Notification Vibration -->
-    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
+    <string name="vibrate_on_notifications_title">Rezgés az értesítéseknél</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux állapota</string>
+    <string name="selinux_status_disabled">Letiltva</string>
+    <string name="selinux_status_permissive">Engedélyezve</string>
+    <string name="selinux_status_enforcing">Kényszerítve</string>
     <!-- Custom ambient display -->
-    <string name="ambient_display_category">Ambient display</string>
-    <string name="lockscreen_settings_category">General</string>
-    <string name="ambient_other_category">Other</string>
-    <string name="ambient_display_custom_title">Custom options</string>
+    <string name="ambient_display_category">Környezeti kijelző</string>
+    <string name="lockscreen_settings_category">Általános</string>
+    <string name="ambient_other_category">Egyebek</string>
+    <string name="ambient_display_custom_title">Egyéni beállítások</string>
     <string name="ambient_display_custom_summary">Wake screen with notifications and various gestures</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
