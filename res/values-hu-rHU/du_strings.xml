@@ -166,61 +166,61 @@
     <string name="vibration_preferences">Rezgés és rezgő visszajelzés</string>
     <string name="summary_vibration_preferences">Intenzitás, minták és egyebek módosítása</string>
     <string name="keywords_vibration_preferences">rezgési minta, rezgéserősség, bejövő hívás közben, rezgő visszajelzés, érintés, rezgés intenzitása</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">High</string>
-    <string name="vibration_intensity_custom">Custom</string>
+    <string name="ringtone_vibration_pattern">Rezgés intenzitásának vezérlése</string>
+    <string name="vibration_intensity_ringer">Csengőhang rezgés intenzitásának vezérlése</string>
+    <string name="vibration_intensity_notification">Értesítés rezgés intenzitásának vezérlése</string>
+    <string name="vibration_intensity_disabled">Kikapcsolva</string>
+    <string name="vibration_intensity_light">Alacsony</string>
+    <string name="vibration_intensity_medium">Közepes</string>
+    <string name="vibration_intensity_strong">Magas</string>
+    <string name="vibration_intensity_custom">Egyéni</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Length used for the gestural navigation bar handle.</string>
-    <string name="home_handle_low_label">Hidden</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">A gesztus navigációs sáv hosszának kezelése.</string>
+    <string name="home_handle_low_label">Rejtett</string>
+    <string name="home_handle_high_label">Hosszú</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Rootolt hibakeresés</string>
+    <string name="adb_enable_summary_root">Rootolva engedélyezi az Android hibakeresését</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Értesítéselőzmény-napló megjelenítése</string>
     <!-- Improvements to Night Light -->
-    <string name="unknown_night_light_time">Unknown - press to update</string>
-    <string name="night_display_location_text">\n\nThe schedule from sunset to sunrise requires enabled location services to get the correct times for your location.</string>
+    <string name="unknown_night_light_time">Ismeretlen - nyomja meg a frissítéshez</string>
+    <string name="night_display_location_text">\n\nA naplemente és a napnyugta ütemezéséhez kötelező a helymeghatározási jogosultság megadása, mert csak így kaphat pontos időbeállításokat.</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Érintőképernyő kézmozdulatok</string>
+    <string name="touchscreen_gesture_settings_summary">Különböző képernyő-mozdulatvezérlések végrehajtása a gyorsműveletekhez</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">Adaptív lejátszás</string>
+    <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
+    <string name="adaptive_playback_timeout_none_summary">Ki</string>
+    <string name="adaptive_playback_timeout_30_secs">30 másodperc</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Be (30 másodperc)</string>
+    <string name="adaptive_playback_timeout_1_min">1 perc</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Be (1 perc)</string>
+    <string name="adaptive_playback_timeout_2_min">2 perc</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Be (2 perc)</string>
+    <string name="adaptive_playback_timeout_5_min">5 perc</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Be (5 perc)</string>
+    <string name="adaptive_playback_timeout_10_min">10 perc</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Be (10 perc)</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Recent Changes</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Változások listája</string>
+    <string name="changelog_summary">Legutóbbi változtatások</string>
+    <string name="changelog_loading">Változáslista betöltése\u2026</string>
+    <string name="changelog_error">Nem lehet betölteni a változások listáját</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Engedélyezi a klienseknek a VPN-használatot</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Engedélyezze a hotspot-klienseknek, hogy a készülék VPN-kapcsolatait felfelé csatlakoztathassák</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">Feloldáshoz csúsztasson felfelé</string>
+    <string name="security_settings_face_require_swipe_summary">Csúsztasson felfelé az arcalapú feloldás használatához</string>
     <!-- Search keywords -->
-    <string name="keywords_notification_log">notifications, notification log</string>
+    <string name="keywords_notification_log">értesítések, értesítési napló</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
