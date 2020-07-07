@@ -222,5 +222,5 @@
     <!-- Search keywords -->
     <string name="keywords_notification_log">értesítések, értesítési napló</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Mentett True Wireless fülhallgatók</string>
 </resources>
