@@ -16,7 +16,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">构建日期</string>
     <string name="crvs_version">Corvus version</string>
     <string name="crvs_version_default">Unknown</string>
     <string name="keywords_corvus_version">corvus version</string>
@@ -43,18 +43,18 @@ tablet.</string>
 tablet.</string>
     <string name="battery_temp">Battery temperature</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">重置电池历史信息</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确 PIN/密码自动后解锁</string>
     <!-- Density category -->
     <string name="density_category">Density options</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时 PIN 布局</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -62,44 +62,43 @@ tablet.</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">电话铃声 - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">电话铃声 - SIM 2</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_title">通知音间隔时间</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_value_none">无限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分钟</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分钟</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">通知音量使用铃声音量</string>
     <string name="background_processes_settings_title">Background processes</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">截图声音</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your 
-phone.</string>
+    <string name="total_ram">总 RAM</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹关闭通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要关闭通知，请在手机背面的指纹传感器上向左或向右滑动</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+    <string name="prevent_ringing_option_mute_no_media">静音（包括媒体）</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">开启静音</string>
     <!-- Gesture Navigation -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">完整</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">使用手势的最高位置</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
@@ -123,45 +122,45 @@ phone.</string>
     <string name="notification_battery_charge_level_ringtone">Ringtone</string>
     <string name="notification_battery_charge_level_silent">Silent</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_subtitle">Autorotation, 0, 90, 180, 270 degrees</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋转</string>
+    <string name="display_rotation_subtitle">自动旋转，0度,90度,180度,270度</string>
+    <string name="display_rotation_disabled">已停用</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
     <string name="du_themes_summary">Life is like a box of crayons..</string>
     <!-- Notification Vibration -->
-    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
+    <string name="vibrate_on_notifications_title">通知振动</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">残废</string>
+    <string name="selinux_status_permissive">宽容</string>
+    <string name="selinux_status_enforcing">强制执行</string>
     <!-- Custom ambient display -->
     <string name="ambient_display_category">Ambient display</string>
     <string name="lockscreen_settings_category">General</string>
     <string name="ambient_other_category">Other</string>
-    <string name="ambient_display_custom_title">Custom options</string>
-    <string name="ambient_display_custom_summary">Wake screen with notifications and various gestures</string>
+    <string name="ambient_display_custom_title">环境显示</string>
+    <string name="ambient_display_custom_summary">始终显示，音乐感知，手势</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">关闭</string>
     <!-- Customize your device -->
     <string name="custom_style_suggestion_title">Customize your device</string>
     <string name="custom_style_suggestion_summary">Try different themes, fonts, and more</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">智能充电</string>
+    <string name="smart_charging_summary">设置最高充电电量</string>
+    <string name="smart_charging_switch_title">使用智能充电</string>
+    <string name="smart_charging_level_title">断电触发</string>
+    <string name="smart_charging_resume_level_title">充电触发</string>
+    <string name="smart_charging_reset_stats_title">重置电池信息</string>
+    <string name="smart_charging_reset_stats_summary">达到设置最高电量后重置电池信息</string>
+    <string name="smart_charging_footer">可以使用智能充电达到最高充电电量，以延长电池使用时间</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Cellular data</string>
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
@@ -170,19 +169,19 @@ phone.</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">In-Call vibration</string>
+    <string name="incall_feeedback_vibrate_title">通话中振动</string>
     <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Vibration &amp; haptics</string>
-    <string name="summary_vibration_preferences">Change intensities, patterns and more</string>
+    <string name="vibration_preferences">振动和反馈</string>
+    <string name="summary_vibration_preferences">改变强度，模式等</string>
     <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
-    <string name="vibration_intensity_ringer">Ringtone vibration intensity</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
+    <string name="ringtone_vibration_pattern">来电振动样式</string>
+    <string name="vibration_intensity_ringer">来电振动强度</string>
+    <string name="vibration_intensity_notification">通知振动强度</string>
     <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">High</string>
+    <string name="vibration_intensity_light">弱</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_strong">强</string>
     <string name="vibration_intensity_custom">Custom</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
@@ -190,9 +189,9 @@ phone.</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Length used for the gestural navigation bar handle.</string>
-    <string name="home_handle_low_label">Hidden</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">手势导航栏的长度</string>
+    <string name="home_handle_low_label">短</string>
+    <string name="home_handle_high_label">长</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
@@ -200,29 +199,29 @@ phone.</string>
     <string name="notification_log_summary">Show notifications history log</string>
     <!-- Improvements to Night Light -->
     <string name="unknown_night_light_time">Unknown - press to update</string>
-    <string name="night_display_location_text">\n\nThe schedule from sunset to sunrise requires enabled location services to get the correct times for your location.</string>
+    <string name="night_display_location_text">从日落到日出的时间表需要启用的位置服务才能获取您所在位置的正确时间。</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">触屏手势</string>
+    <string name="touchscreen_gesture_settings_summary">执行各种触摸屏手势以进行快速操作</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_title">超时时间</string>
     <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title">更新日志</string>
     <string name="changelog_summary">Recent Changes</string>
     <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_error">无法加更新日志</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
