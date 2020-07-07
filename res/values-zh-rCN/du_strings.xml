@@ -44,12 +44,12 @@ tablet.</string>
     <string name="battery_temp">Battery temperature</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置统计信息</string>
-    <string name="battery_stats_message">重置电池历史信息</string>
+    <string name="battery_stats_message">这将重置电池历史记录统计信息。你想要继续吗？</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">谷歌市场</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">输入正确 PIN/密码自动后解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN/密码时自动解锁</string>
     <!-- Density category -->
     <string name="density_category">Density options</string>
     <!-- Scramble pin -->
@@ -62,9 +62,9 @@ tablet.</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">电话铃声 - SIM 1</string>
+    <string name="ringtone1_title">电话铃声 - SIM 卡 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">电话铃声 - SIM 2</string>
+    <string name="ringtone2_title">电话铃声 - SIM 卡 2</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">通知音间隔时间</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
@@ -77,9 +77,9 @@ tablet.</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">通知音量使用铃声音量</string>
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">后台进程</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">截图声音</string>
+    <string name="screenshot_sound_title">截图提示音</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
@@ -88,9 +88,9 @@ tablet.</string>
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">总 RAM</string>
-    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹关闭通知</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">要关闭通知，请在手机背面的指纹传感器上向左或向右滑动</string>
+    <string name="total_ram">内存总计</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹以清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">静音（包括媒体）</string>
     <string name="prevent_ringing_option_mute_no_media_summary">开启静音</string>
@@ -98,7 +98,7 @@ tablet.</string>
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>
     <string name="back_options_dialog_title">选项</string>
-    <string name="back_height_message">使用手势的最高位置</string>
+    <string name="back_height_message">屏幕高度用作返回手势的可触摸区域</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
@@ -107,8 +107,8 @@ tablet.</string>
     <!-- Ambient Display wake gestures/music ticker -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
+    <string name="pulse_on_new_tracks_title">提示音乐</string>
+    <string name="pulse_on_new_tracks_summary">主动显示新音乐播放</string>
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
@@ -138,9 +138,9 @@ tablet.</string>
     <string name="vibrate_on_notifications_title">通知振动</string>
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">残废</string>
-    <string name="selinux_status_permissive">宽容</string>
-    <string name="selinux_status_enforcing">强制执行</string>
+    <string name="selinux_status_disabled">禁用</string>
+    <string name="selinux_status_permissive">许可</string>
+    <string name="selinux_status_enforcing">执行中</string>
     <!-- Custom ambient display -->
     <string name="ambient_display_category">Ambient display</string>
     <string name="lockscreen_settings_category">General</string>
@@ -154,13 +154,13 @@ tablet.</string>
     <string name="custom_style_suggestion_summary">Try different themes, fonts, and more</string>
     <!-- Smart charging -->
     <string name="smart_charging_title">智能充电</string>
-    <string name="smart_charging_summary">设置最高充电电量</string>
-    <string name="smart_charging_switch_title">使用智能充电</string>
-    <string name="smart_charging_level_title">断电触发</string>
-    <string name="smart_charging_resume_level_title">充电触发</string>
-    <string name="smart_charging_reset_stats_title">重置电池信息</string>
-    <string name="smart_charging_reset_stats_summary">达到设置最高电量后重置电池信息</string>
-    <string name="smart_charging_footer">可以使用智能充电达到最高充电电量，以延长电池使用时间</string>
+    <string name="smart_charging_summary">设置最大充电级别</string>
+    <string name="smart_charging_switch_title">启用智能充电</string>
+    <string name="smart_charging_level_title">停止触发级别</string>
+    <string name="smart_charging_resume_level_title">开始触发级别</string>
+    <string name="smart_charging_reset_stats_title">重置电池统计信息</string>
+    <string name="smart_charging_reset_stats_summary">达到用户定义的充电级别后重置电池统计</string>
+    <string name="smart_charging_footer">智能充电允许您设置最大充电级别来延长电池寿命。 如果启用，电池将停止在停止触发级别充电并恢复在开始触发级别充电。 停止触发级别应该总是大于起始触发级别</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Cellular data</string>
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
@@ -170,19 +170,19 @@ tablet.</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">通话中振动</string>
-    <string name="incall_feeedback_summary">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_summary">振动以提示呼叫状态</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">振动和反馈</string>
+    <string name="vibration_preferences">振动 &amp; 反馈</string>
     <string name="summary_vibration_preferences">改变强度，模式等</string>
-    <string name="keywords_vibration_preferences">vibration pattern, vibration intensity, incall, haptics, tap, vibration strength</string>
+    <string name="keywords_vibration_preferences">振动模式，振动强度，呼叫振动，触摸振动，点按等操作的触感反馈</string>
     <string name="ringtone_vibration_pattern">来电振动样式</string>
-    <string name="vibration_intensity_ringer">来电振动强度</string>
+    <string name="vibration_intensity_ringer">铃声振动强度</string>
     <string name="vibration_intensity_notification">通知振动强度</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">弱</string>
+    <string name="vibration_intensity_disabled">已禁用</string>
+    <string name="vibration_intensity_light">低</string>
     <string name="vibration_intensity_medium">中</string>
-    <string name="vibration_intensity_strong">强</string>
-    <string name="vibration_intensity_custom">Custom</string>
+    <string name="vibration_intensity_strong">高</string>
+    <string name="vibration_intensity_custom">自定义</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
@@ -204,30 +204,30 @@ tablet.</string>
     <string name="touchscreen_gesture_settings_title">触屏手势</string>
     <string name="touchscreen_gesture_settings_summary">执行各种触摸屏手势以进行快速操作</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">超时时间</string>
+    <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_timeout_title">播放超时</string>
     <string name="adaptive_playback_timeout_none_summary">Off</string>
     <string name="adaptive_playback_timeout_30_secs">30秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开（30秒）</string>
     <string name="adaptive_playback_timeout_1_min">1分</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开（1分钟）</string>
     <string name="adaptive_playback_timeout_2_min">2分</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开（2分钟）</string>
     <string name="adaptive_playback_timeout_5_min">5分</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开（5分钟）</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开（10分钟）</string>
     <!-- Changelog -->
-    <string name="changelog_title">更新日志</string>
-    <string name="changelog_summary">Recent Changes</string>
+    <string name="changelog_title">服务器日志</string>
+    <string name="changelog_summary">查看最新可用更新的日志</string>
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">无法加更新日志</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">上滑解锁</string>
+    <string name="security_settings_face_require_swipe_summary">在锁屏上向上滑动以使用面部解锁</string>
     <!-- Search keywords -->
     <string name="keywords_notification_log">notifications, notification log</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
