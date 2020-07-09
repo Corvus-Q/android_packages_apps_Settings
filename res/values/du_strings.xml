@@ -391,4 +391,7 @@ phone.</string>
     <string name="maintainer">Maintainer</string>
     <string name="corvus_maintainer">Unofficial Maintainer</string>
 
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
