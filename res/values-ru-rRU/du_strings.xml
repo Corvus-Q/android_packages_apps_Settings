@@ -16,7 +16,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="Имя Пакета">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Дата сборки</string>
     <string name="crvs_version">Версия Corvus</string>
     <string name="crvs_version_default">Неизвестный</string>
     <string name="keywords_corvus_version">версия corvus</string>
@@ -106,10 +106,10 @@
     <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении зарядного устройства</string>
     <!-- Battery charge warning -->
     <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда</string>
-    <string name="notification_sound_battery_charge_summary">Play a sound when battery reaches charge level</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
+    <string name="notification_sound_battery_charge_summary">Воспроизводить звук, когда батарея достигает заданного уровня</string>
+    <string name="notification_battery_charge_level_title">Предупреждение о зарядке аккумулятора</string>
+    <string name="notification_battery_charge_level_summary">Проигрывать звук, когда заряд батареи превосходит установленный уровень</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда батареи</string>
     <string name="notification_battery_charge_level_ringtone">Ringtone</string>
     <string name="notification_battery_charge_level_silent">Silent</string>
     <!-- Display : Rotation -->
