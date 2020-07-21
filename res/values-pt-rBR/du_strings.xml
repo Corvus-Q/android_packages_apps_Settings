@@ -155,7 +155,7 @@
     <string name="smart_charging_footer">O Carregamento inteligente permite que você defina o nível máximo de carregamento para estender a vida útil da sua bateria</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all_summary">Allow application to access the network</string>
     <string name="data_usage_app_restrict_data">Dados móveis</string>
     <string name="data_usage_app_restrict_data_summary">Ativar o uso de dados móveis</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
