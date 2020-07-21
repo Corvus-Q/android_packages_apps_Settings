@@ -16,7 +16,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Dispositivo</string>
     <string name="build_date">Fecha de compilación</string>
     <string name="crvs_version">Versión de Corvus</string>
     <string name="crvs_version_default">Desconocido</string>
@@ -154,8 +154,8 @@
     <string name="smart_charging_reset_stats_summary">Restablecer estadísticas de batería después de alcanzar el nivel de carga definido por el usuario</string>
     <string name="smart_charging_footer">Carga inteligente le permite establecer el nivel máximo de carga para ampliar la duración de su batería</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Allow application to access the network</string>
+    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
+    <string name="data_usage_app_restrict_all_summary">Permitir a la aplicación el acceso a la red</string>
     <string name="data_usage_app_restrict_data">Datos móviles</string>
     <string name="data_usage_app_restrict_data_summary">Activar el uso de datos móviles</string>
     <string name="data_usage_app_restrict_vpn">Datos VPN</string>
@@ -283,11 +283,11 @@
     <string name="sbc_hd_priority_title">Audio SBC HD</string>
     <string name="sbc_hd_priority_summary">Usar el modo de canal dual para el códec SBC por defecto</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">Estado de la batería</string>
+    <string name="battery_health_summary">Controlar el estado de la batería de su dispositivo</string>
+    <string name="current_battery_capacity">Capacidad total de la batería</string>
+    <string name="current_battery_capacity_summary">La capacidad actual de la batería medida por el kernel</string>
+    <string name="designed_battery_capacity">Capacidad total de la batería</string>
+    <string name="designed_battery_capacity_summary">La capacidad de batería diseñada por el fabricante</string>
+    <string name="battery_charge_cycles">Ciclos de carga completados</string>
 </resources>
