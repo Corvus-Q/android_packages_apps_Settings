@@ -155,7 +155,7 @@
     <string name="smart_charging_footer">Az Okos töltés lehetővé teszi a maximális töltési szint beállítását az akkumulátor élettartamának meghosszabbítása érdekében</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_all_summary">Allow application to access the network</string>
     <string name="data_usage_app_restrict_data">Mobil adat</string>
     <string name="data_usage_app_restrict_data_summary">Engedélyezi a mobiladat-kapcsolatot</string>
     <string name="data_usage_app_restrict_vpn">VPN adatok</string>
