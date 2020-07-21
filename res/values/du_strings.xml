@@ -376,4 +376,7 @@ phone.</string>
     <string name="smart_charging_category_title">Smart Charging</string>
     <string name="battery_usage_info_category_title">Battery Usage Info</string>
     <string name="volume_key_category_title">Volume Shortcut</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access toast</string>
 </resources>
