@@ -275,19 +275,19 @@
     <string name="picture_adjustment_summary">Přizpůsobit odstín, sytost, intenzitu a kontrast</string>
     <string name="adj_hue_title">Odstín</string>
     <string name="adj_saturation_title">Sytost</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="adj_intensity_title">Intenzita</string>
+    <string name="adj_contrast_title">Kontrast</string>
     <!-- A2DP codec priority -->
-    <string name="a2dp_source_codec_priority_title">Bluetooth Audio Codec (preferred)</string>
+    <string name="a2dp_source_codec_priority_title">Kodek Bluetooth Audio (preferovaný)</string>
     <!-- SBC HD (Dual Channel) priority -->
     <string name="sbc_hd_priority_title">SBC HD audio</string>
-    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <string name="sbc_hd_priority_summary">Zvolte, zda má být ve výchozím nastavení SBC kodeku použit režim Dual Channel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">Zdraví baterie</string>
+    <string name="battery_health_summary">Sledujte zdraví baterie vašeho zařízení</string>
+    <string name="current_battery_capacity">Aktuální kapacita baterie</string>
+    <string name="current_battery_capacity_summary">Aktuální kapacita baterie změřená jádrem</string>
+    <string name="designed_battery_capacity">Výrobní kapacita baterie</string>
+    <string name="designed_battery_capacity_summary">Kapacita baterie navržená výrobcem</string>
+    <string name="battery_charge_cycles">Dokončené nabíjecí cykly</string>
 </resources>
