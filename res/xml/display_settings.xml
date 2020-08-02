@@ -23,11 +23,9 @@
         android:key="display_animation"
         android:layout="@layout/display_animation" />
 
-    <Preference
-        android:key="lockscreen_from_display_settings"
-        android:title="@string/lockscreen_settings_title"
-        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
-        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
+    <PreferenceCategory
+        android:key="screen_category"
+        android:title="@string/display_screen_category">
 
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
@@ -53,29 +51,12 @@
         settings:widgetLayout="@null"
         settings:searchable="false" />
 
-    <com.android.settings.display.darkmode.DarkModePreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
-        android:widgetLayout="@null"
-        settings:widgetLayout="@null"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"
-        settings:searchable="false"/>
-
     <Preference
         android:key="livedisplay"
         android:title="@*android:string/live_display_title"
         android:summary="@string/live_display_summary">
         <intent android:action="com.android.settings.LIVEDISPLAY_SETTINGS" />
     </Preference>
-
-    <com.android.settingslib.RestrictedPreference
-        android:key="wallpaper"
-        android:title="@string/wallpaper_settings_title"
-        android:summary="@string/style_suggestion_summary"
-        settings:keywords="@string/keywords_display_wallpaper"
-        settings:controller="com.android.settings.display.WallpaperPreferenceController">
-    </com.android.settingslib.RestrictedPreference>
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
@@ -85,13 +66,6 @@
         android:entries="@array/screen_timeout_entries"
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout" />
-
-    <com.dirtyunicorns.support.preferences.SystemSettingListPreference
-        android:key="lockscreen_timeout"
-        android:title="@string/lockscreen_timeout_title"
-        android:entries="@array/screen_timeout_entries"
-        android:entryValues="@array/screen_timeout_values"
-        android:defaultValue="15000" />
 
     <Preference
         android:key="adaptive_sleep_entry"
@@ -130,41 +104,7 @@
         android:fragment="com.android.settings.dream.DreamSettings"
         settings:searchable="false" />
 
-    <SwitchPreference
-        android:key="camera_gesture"
-        android:title="@string/camera_gesture_title"
-        android:summary="@string/camera_gesture_desc" />
-
-    <SwitchPreference
-        android:key="lift_to_wake"
-        android:title="@string/lift_to_wake_title" />
-
-    <SwitchPreference
-        android:key="tap_to_wake"
-        android:title="@string/tap_to_wake"
-        android:summary="@string/tap_to_wake_summary" />
-
-    <com.dirtyunicorns.support.preferences.GlobalSettingSwitchPreference
-        android:key="wake_when_plugged_or_unplugged"
-        android:title="@string/wake_when_plugged_or_unplugged_title"
-        android:summary="@string/wake_when_plugged_or_unplugged_summary"
-        android:defaultValue="false" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
-
-    <Preference
-        android:key="vr_display_pref"
-        android:title="@string/display_vr_pref_title"
-        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
-
-    <Preference
-        android:key="game_driver_dashboard"
-        android:title="@string/game_driver_dashboard_title"
-        android:summary="@string/game_driver_dashboard_summary"
-        android:fragment="com.android.settings.development.gamedriver.GameDriverDashboard" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="density_category"
@@ -185,6 +125,91 @@
     <com.android.settings.display.DensityPreference
         android:key="density"
         android:title="@string/developer_smallest_width" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/lock_screen_category">
+
+    <Preference
+        android:key="lockscreen_from_display_settings"
+        android:title="@string/lockscreen_settings_title"
+        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
+
+    <com.dirtyunicorns.support.preferences.SystemSettingListPreference
+        android:key="lockscreen_timeout"
+        android:title="@string/lockscreen_timeout_title"
+        android:entries="@array/screen_timeout_entries"
+        android:entryValues="@array/screen_timeout_values"
+        android:defaultValue="15000" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="wake_options_category"
+        android:title="@string/wake_options_category_title">
+
+    <SwitchPreference
+        android:key="camera_gesture"
+        android:title="@string/camera_gesture_title"
+        android:summary="@string/camera_gesture_desc" />
+
+    <SwitchPreference
+        android:key="lift_to_wake"
+        android:title="@string/lift_to_wake_title" />
+
+    <SwitchPreference
+        android:key="tap_to_wake"
+        android:title="@string/tap_to_wake"
+        android:summary="@string/tap_to_wake_summary" />
+
+    <com.dirtyunicorns.support.preferences.GlobalSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wake_when_plugged_or_unplugged_title"
+        android:summary="@string/wake_when_plugged_or_unplugged_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="theme_customization_category"
+        android:title="@string/theme_customization_category"
+        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
+
+    <com.android.settings.display.darkmode.DarkModePreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"
+        settings:searchable="false"/>
+
+    <com.android.settingslib.RestrictedPreference
+        android:key="wallpaper"
+        android:title="@string/wallpaper_settings_title"
+        android:summary="@string/style_suggestion_summary"
+        settings:keywords="@string/keywords_display_wallpaper"
+        settings:controller="com.android.settings.display.WallpaperPreferenceController">
+    </com.android.settingslib.RestrictedPreference>
+
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <Preference
+        android:key="game_driver_dashboard"
+        android:title="@string/game_driver_dashboard_title"
+        android:summary="@string/game_driver_dashboard_summary"
+        android:fragment="com.android.settings.development.gamedriver.GameDriverDashboard" />
 
     </PreferenceCategory>
 
