@@ -156,7 +156,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     BatteryTipPreferenceController mBatteryTipPreferenceController;
     private int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
-    BatteryMeterView mBatteryView;
 
     @VisibleForTesting
     final ContentObserver mSettingsObserver = new ContentObserver(new Handler()) {
@@ -207,6 +206,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             };
 
     protected void updateViews(List<BatteryInfo> batteryInfos) {
+        final BatteryMeterView batteryView = mBatteryLayoutPref
+                .findViewById(R.id.battery_header_icon);
         final TextView percentRemaining =
                 mBatteryLayoutPref.findViewById(R.id.battery_percent);
         final TextView summary1 = mBatteryLayoutPref.findViewById(R.id.summary1);
@@ -225,8 +226,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                         PowerUtil.convertUsToMs(newInfo.remainingTimeUs)));
         summary1.setText(OldEstimateString + "\n" + NewEstimateString);
 
-        mBatteryView.setBatteryLevel(oldInfo.batteryLevel);
-        mBatteryView.setCharging(!oldInfo.discharging);
+        batteryView.setBatteryLevel(oldInfo.batteryLevel);
+        batteryView.setCharging(!oldInfo.discharging);
     }
 
     private LoaderManager.LoaderCallbacks<List<BatteryTip>> mBatteryTipsCallbacks =
@@ -269,8 +270,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
         initFeatureProvider();
         mBatteryLayoutPref = (LayoutPreference) findPreference(KEY_BATTERY_HEADER);
-        mBatteryView = mBatteryLayoutPref.findViewById(R.id.battery_header_icon);
-        mBatteryView.setDrawableStyle();
 
         mBatteryLevel = getContext().getResources().getInteger(
                 com.android.internal.R.integer.config_criticalBatteryWarningLevel) + 1;
@@ -338,7 +337,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 Global.getUriFor(Global.BATTERY_ESTIMATES_LAST_UPDATE_TIME),
                 false,
                 mSettingsObserver);
-        mBatteryView.setDrawableStyle();
     }
 
     @Override
