@@ -76,6 +76,15 @@
         android:title="@string/device_screen_usage"
         android:selectable="false" />
 		
+    <PreferenceCategory
+        android:key="battery_health"
+        android:title="@string/battery_health_title">
+
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp"
+        android:selectable="false" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="designed_battery_capacity"
         android:title="@string/designed_battery_capacity"
@@ -90,10 +99,6 @@
         android:key="battery_charge_cycles"
         android:title="@string/battery_charge_cycles"
         android:selectable="false" />
-
-    <com.android.settings.fuelgauge.PowerGaugePreference
-        android:key="battery_temp"
-        android:title="@string/battery_temp"
-        android:selectable="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
