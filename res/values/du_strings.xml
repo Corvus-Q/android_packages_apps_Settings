@@ -167,6 +167,12 @@ phone.</string>
     <string name="ambient_notification_light_color_mode_custom">Custom color</string>
     <string name="ambient_image_title">Ambient Image</string>
 
+    <!-- SeekBar -->
+    <string name="seekbar_no_default_value">No default value set</string>
+    <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Default value is already set</string>
+    <string name="seekbar_default_string">Default</string>
+
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>

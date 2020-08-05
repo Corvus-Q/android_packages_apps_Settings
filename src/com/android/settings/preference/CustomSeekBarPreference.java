@@ -24,7 +24,7 @@ import android.view.ViewParent;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.support.v7.preference.*;
+import androidx.preference.*;
 
 import com.android.settings.R;
 
@@ -54,6 +54,9 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mMax = attrs.getAttributeIntValue(SETTINGS_NS, "max", 100);
         mMin = attrs.getAttributeIntValue(SETTINGS_NS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
+        if (mDefaultValue > mMax) {
+            mDefaultValue = mMax;
+        }
         mUnits = getAttributeStringValue(attrs, SETTINGS_NS, "units", "");
 
         Integer id = a.getResourceId(R.styleable.CustomSeekBarPreference_units, 0);
@@ -206,6 +209,16 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
             }
             persistInt(temp);
             mCurrentValue = temp;
+        }
+    }
+
+    public void setDefaultValue(int value) {
+        mDefaultValue = value;
+        if (mDefaultValue > mMax) {
+            mDefaultValue = mMax;
+        }
+        if (mCurrentValue == mDefaultValue) {
+            mStatusText.setText(mDefaultText);
         }
     }
 
