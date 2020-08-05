@@ -73,6 +73,12 @@
             android:summary="@string/ambient_display_custom_summary"  />
 
         <Preference
+            android:key="ambient_customization"
+            android:title="@string/ambient_text_category_title"
+            android:summary="@string/ambient_text_category_summary"
+            android:fragment="com.android.settings.display.AmbientCustomizations" />
+
+        <Preference
             android:key="ambient_display_tap"
             android:title="@string/ambient_display_tap_screen_title"
             android:fragment="com.android.settings.gestures.TapScreenGestureSettings"
