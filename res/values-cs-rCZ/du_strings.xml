@@ -183,11 +183,11 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
+    <string name="home_handle_sizer_title">Délka úchopu navigačního panelu.</string>
     <string name="home_handle_low_label">Skrytá</string>
     <string name="home_handle_high_label">Dlouhá</string>
-    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
-    <string name="home_handle_thick_label">Thick</string>
+    <string name="home_handle_height_sizer_title">Tloušťka úchopu navigačního panelu.</string>
+    <string name="home_handle_thick_label">Tlustý</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Ladění s právy root</string>
     <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s právy root</string>
@@ -293,28 +293,28 @@
     <string name="designed_battery_capacity_summary">Kapacita baterie navržená výrobcem</string>
     <string name="battery_charge_cycles">Dokončené nabíjecí cykly</string>
     <!-- categories -->
-    <string name="display_screen_category">Screen</string>
-    <string name="lock_screen_category">LockScreen</string>
-    <string name="theme_customization_category">Theming and Misc</string>
-    <string name="display_customisation_title">Display Customisation</string>
-    <string name="wake_options_category_title">Wake Options</string>
-    <string name="volume_adjustment_category_title">Volume Adjustments</string>
-    <string name="sound_effects_category_title">Effects</string>
-    <string name="do_not_disturb_category_title">Do Not Disturb</string>
-    <string name="ringtone_category_title">Ringtone</string>
-    <string name="vibrations_category_title">Vibrations</string>
-    <string name="apps_category">Apps</string>
-    <string name="connected_devices_category_title">Connected Devices</string>
-    <string name="battery_saver_category_title">Battery Saver</string>
-    <string name="smart_charging_category_title">Smart Charging</string>
-    <string name="battery_usage_info_category_title">Battery Usage Info</string>
-    <string name="volume_key_category_title">Volume Shortcut</string>
+    <string name="display_screen_category">Obrazovka</string>
+    <string name="lock_screen_category">Zamykací obrazovka</string>
+    <string name="theme_customization_category">Motivy a jiné</string>
+    <string name="display_customisation_title">Přizpůsobení displeje</string>
+    <string name="wake_options_category_title">Možnosti probuzení</string>
+    <string name="volume_adjustment_category_title">Nastavení hlasitosti</string>
+    <string name="sound_effects_category_title">Efekty</string>
+    <string name="do_not_disturb_category_title">Nerušit</string>
+    <string name="ringtone_category_title">Vyzváněcí tón</string>
+    <string name="vibrations_category_title">Vibrace</string>
+    <string name="apps_category">Aplikace</string>
+    <string name="connected_devices_category_title">Připojená zařízení</string>
+    <string name="battery_saver_category_title">Spořič baterie</string>
+    <string name="smart_charging_category_title">Chytré nabíjení</string>
+    <string name="battery_usage_info_category_title">Informace o využití baterie</string>
+    <string name="volume_key_category_title">Zkratka tlačítka hlasitosti</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access toast</string>
+    <string name="show_clipboard_toast">Zobrazit oznámení na přístup ke schránce</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
-    <string name="specs_title">Phone Specifications</string>
+    <string name="lockscreen_timeout_title">Časový limit zámku obrazovky</string>
+    <string name="specs_title">Specifikace telefonu</string>
     <!-- Corvus maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Unofficial Maintainer</string>
+    <string name="maintainer">Správce</string>
+    <string name="corvus_maintainer">Neoficiální správce</string>
 </resources>
