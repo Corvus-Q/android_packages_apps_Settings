@@ -183,11 +183,11 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
+    <string name="home_handle_sizer_title">Longitud de la barra de navegación.</string>
     <string name="home_handle_low_label">Oculto</string>
     <string name="home_handle_high_label">Largo</string>
-    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
-    <string name="home_handle_thick_label">Thick</string>
+    <string name="home_handle_height_sizer_title">Grosor de la barra de navegación.</string>
+    <string name="home_handle_thick_label">Grosor</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración raíz</string>
     <string name="adb_enable_summary_root">Permitir ejecutar la depuración de Android como root</string>
@@ -293,28 +293,28 @@
     <string name="designed_battery_capacity_summary">La capacidad de batería diseñada por el fabricante</string>
     <string name="battery_charge_cycles">Ciclos de carga completados</string>
     <!-- categories -->
-    <string name="display_screen_category">Screen</string>
-    <string name="lock_screen_category">LockScreen</string>
-    <string name="theme_customization_category">Theming and Misc</string>
-    <string name="display_customisation_title">Display Customisation</string>
-    <string name="wake_options_category_title">Wake Options</string>
-    <string name="volume_adjustment_category_title">Volume Adjustments</string>
-    <string name="sound_effects_category_title">Effects</string>
-    <string name="do_not_disturb_category_title">Do Not Disturb</string>
-    <string name="ringtone_category_title">Ringtone</string>
-    <string name="vibrations_category_title">Vibrations</string>
+    <string name="display_screen_category">Pantalla</string>
+    <string name="lock_screen_category">Bloqueo de pantalla</string>
+    <string name="theme_customization_category">Temas y Misc</string>
+    <string name="display_customisation_title">Personalización de pantalla</string>
+    <string name="wake_options_category_title">Opciones de Wake</string>
+    <string name="volume_adjustment_category_title">Ajustes de volumen</string>
+    <string name="sound_effects_category_title">Efectos</string>
+    <string name="do_not_disturb_category_title">No Molestar</string>
+    <string name="ringtone_category_title">Tono de llamada</string>
+    <string name="vibrations_category_title">Vibraciones</string>
     <string name="apps_category">Apps</string>
-    <string name="connected_devices_category_title">Connected Devices</string>
-    <string name="battery_saver_category_title">Battery Saver</string>
-    <string name="smart_charging_category_title">Smart Charging</string>
-    <string name="battery_usage_info_category_title">Battery Usage Info</string>
-    <string name="volume_key_category_title">Volume Shortcut</string>
+    <string name="connected_devices_category_title">Dispositivos conectados</string>
+    <string name="battery_saver_category_title">Ahorro de energía</string>
+    <string name="smart_charging_category_title">Carga inteligente</string>
+    <string name="battery_usage_info_category_title">Información de uso de la batería</string>
+    <string name="volume_key_category_title">Atajos de la tecla volumen</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access toast</string>
+    <string name="show_clipboard_toast">Mostrar acceso al portapapeles</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
-    <string name="specs_title">Phone Specifications</string>
+    <string name="lockscreen_timeout_title">Tiempo de bloqueo pantalla</string>
+    <string name="specs_title">Especificaciones del teléfono</string>
     <!-- Corvus maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Unofficial Maintainer</string>
+    <string name="maintainer">Mantenedor</string>
+    <string name="corvus_maintainer">Mantenedor no oficial</string>
 </resources>
