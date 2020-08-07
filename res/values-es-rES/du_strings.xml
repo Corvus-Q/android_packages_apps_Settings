@@ -183,9 +183,11 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Longitud barra de navegación.</string>
+    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
     <string name="home_handle_low_label">Oculto</string>
     <string name="home_handle_high_label">Largo</string>
+    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
+    <string name="home_handle_thick_label">Thick</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuración raíz</string>
     <string name="adb_enable_summary_root">Permitir ejecutar la depuración de Android como root</string>
@@ -309,4 +311,10 @@
     <string name="volume_key_category_title">Volume Shortcut</string>
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access toast</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+    <string name="specs_title">Phone Specifications</string>
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="corvus_maintainer">Unofficial Maintainer</string>
 </resources>
