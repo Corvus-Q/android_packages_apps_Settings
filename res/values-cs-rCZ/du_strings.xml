@@ -290,4 +290,23 @@
     <string name="designed_battery_capacity">Výrobní kapacita baterie</string>
     <string name="designed_battery_capacity_summary">Kapacita baterie navržená výrobcem</string>
     <string name="battery_charge_cycles">Dokončené nabíjecí cykly</string>
+    <!-- categories -->
+    <string name="display_screen_category">Screen</string>
+    <string name="lock_screen_category">LockScreen</string>
+    <string name="theme_customization_category">Theming and Misc</string>
+    <string name="display_customisation_title">Display Customisation</string>
+    <string name="wake_options_category_title">Wake Options</string>
+    <string name="volume_adjustment_category_title">Volume Adjustments</string>
+    <string name="sound_effects_category_title">Effects</string>
+    <string name="do_not_disturb_category_title">Do Not Disturb</string>
+    <string name="ringtone_category_title">Ringtone</string>
+    <string name="vibrations_category_title">Vibrations</string>
+    <string name="apps_category">Apps</string>
+    <string name="connected_devices_category_title">Connected Devices</string>
+    <string name="battery_saver_category_title">Battery Saver</string>
+    <string name="smart_charging_category_title">Smart Charging</string>
+    <string name="battery_usage_info_category_title">Battery Usage Info</string>
+    <string name="volume_key_category_title">Volume Shortcut</string>
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access toast</string>
 </resources>
