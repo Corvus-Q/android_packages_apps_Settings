@@ -21,6 +21,6 @@
 
     <color name="settings_icon_oneplus">@android:color/white</color>
 
-    <color name="crvs_dashboard_battery">#B2EBF2</color>
+    <color name="crvs_dashboard_battery">#2e7d32</color>
 
 </resources>
