@@ -183,11 +183,11 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
+    <string name="home_handle_sizer_title">Tamanho da barra de navegação.</string>
     <string name="home_handle_low_label">Oculto</string>
     <string name="home_handle_high_label">Longo</string>
-    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
-    <string name="home_handle_thick_label">Thick</string>
+    <string name="home_handle_height_sizer_title">Tamanho da barra de navegação.</string>
+    <string name="home_handle_thick_label">Espessura</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração como superusuário</string>
     <string name="adb_enable_summary_root">Permitir a depuração do Android como root</string>
@@ -293,28 +293,28 @@
     <string name="designed_battery_capacity_summary">A capacidade da bateria projetada pelo fabricante</string>
     <string name="battery_charge_cycles">Ciclos de carregamento concluídos</string>
     <!-- categories -->
-    <string name="display_screen_category">Screen</string>
-    <string name="lock_screen_category">LockScreen</string>
-    <string name="theme_customization_category">Theming and Misc</string>
-    <string name="display_customisation_title">Display Customisation</string>
-    <string name="wake_options_category_title">Wake Options</string>
-    <string name="volume_adjustment_category_title">Volume Adjustments</string>
-    <string name="sound_effects_category_title">Effects</string>
-    <string name="do_not_disturb_category_title">Do Not Disturb</string>
-    <string name="ringtone_category_title">Ringtone</string>
-    <string name="vibrations_category_title">Vibrations</string>
-    <string name="apps_category">Apps</string>
-    <string name="connected_devices_category_title">Connected Devices</string>
-    <string name="battery_saver_category_title">Battery Saver</string>
-    <string name="smart_charging_category_title">Smart Charging</string>
-    <string name="battery_usage_info_category_title">Battery Usage Info</string>
-    <string name="volume_key_category_title">Volume Shortcut</string>
+    <string name="display_screen_category">Tela</string>
+    <string name="lock_screen_category">Tela de bloqueio</string>
+    <string name="theme_customization_category">Temas e Outros</string>
+    <string name="display_customisation_title">Personalização de exibição</string>
+    <string name="wake_options_category_title">Opções de despertar</string>
+    <string name="volume_adjustment_category_title">Ajustes do volume</string>
+    <string name="sound_effects_category_title">Efeitos</string>
+    <string name="do_not_disturb_category_title">Não Perturbe</string>
+    <string name="ringtone_category_title">Toque</string>
+    <string name="vibrations_category_title">Vibrações</string>
+    <string name="apps_category">Aplicativos</string>
+    <string name="connected_devices_category_title">Dispositivos conectados</string>
+    <string name="battery_saver_category_title">Economia de Bateria</string>
+    <string name="smart_charging_category_title">Carregamento inteligente</string>
+    <string name="battery_usage_info_category_title">Informações de Uso da Bateria</string>
+    <string name="volume_key_category_title">Atalho dos botões de volume</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access toast</string>
+    <string name="show_clipboard_toast">Exibir aviso de acesso à área de transferência</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
-    <string name="specs_title">Phone Specifications</string>
+    <string name="lockscreen_timeout_title">Tempo limite da tela de bloqueio</string>
+    <string name="specs_title">Especificações do telefone</string>
     <!-- Corvus maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Unofficial Maintainer</string>
+    <string name="maintainer">Mantenedor</string>
+    <string name="corvus_maintainer">Mantenedor Não-oficial</string>
 </resources>
