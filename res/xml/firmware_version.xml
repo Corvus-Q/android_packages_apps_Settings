@@ -23,11 +23,10 @@
     settings:keywords="@string/keywords_android_version">
 
 <PreferenceScreen
-    android:layout="@layout/crvs_logo_layout"
-    android:key="crvs_logo"
+    android:layout="@layout/logo_layout"
+    android:key="logo"
     android:selectable="false"/>
 
-    <!--Android version-->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
