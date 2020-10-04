@@ -29,4 +29,10 @@
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
