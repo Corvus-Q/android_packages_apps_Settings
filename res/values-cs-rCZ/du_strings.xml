@@ -326,9 +326,9 @@
     <string name="applock_show_only_on_wake">Ověřit pouze jednou</string>
     <string name="applock_show_only_on_wake_on_summary">Po ověření zůstane aplikace odemknutá, dokud se nevypne obrazovka</string>
     <string name="applock_show_only_on_wake_off_summary">Po ověření zůstane aplikace odemknutá po dobu 15 sekund od jejího ukončení</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_notification_info">Obsah oznámení můžete zobrazit nebo skrýt pro jednotlivé aplikace kliknutím na ikonu oznámení zobrazenou v předvolbách každé zamčené aplikace</string>
+    <string name="applock_show_notif">Zobrazit obsah oznámení</string>
+    <string name="applock_hide_notif">Skrytí obsahu oznámení</string>
     <string name="applock_setup">Nastavit zámek aplikací</string>
     <string name="applock_overlay_summary">Tato funkce není k dispozici, protože tato aplikace je uzamknuta</string>
     <plurals name="applock_summary">
