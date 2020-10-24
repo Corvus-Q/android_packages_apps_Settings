@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -24,6 +21,7 @@
 
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
+        android:icon="@drawable/ic_settings_adaptive_brightness"
         android:title="@string/brightness"
         settings:keywords="@string/keywords_display_brightness_level"
         settings:useAdminDisabledSummary="true"
@@ -42,6 +40,7 @@
 
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
+        android:icon="@drawable/ic_settings_night_mode"
         android:title="@string/night_display_title"
         android:fragment="com.android.settings.display.NightDisplaySettings"
         android:widgetLayout="@null"
@@ -49,11 +48,12 @@
 
     <Preference
         android:key="auto_brightness_entry"
+        android:icon="@drawable/ic_settings_adaptive_brightness"
         android:title="@string/auto_brightness_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
-
+    
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
         android:title="@string/wallpaper_settings_title"
@@ -65,6 +65,7 @@
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
         android:key="screen_timeout"
+        android:icon="@drawable/ic_settings_sleep_standby_optimization"
         android:title="@string/screen_timeout"
         android:summary="@string/summary_placeholder"
         android:entries="@array/screen_timeout_entries"
@@ -73,6 +74,7 @@
 
     <Preference
         android:key="adaptive_sleep_entry"
+        android:icon="@drawable/ic_settings_sleep"
         android:title="@string/adaptive_sleep_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.display.AdaptiveSleepSettings"
@@ -105,12 +107,14 @@
 
     <Preference
         android:key="font_size"
+        android:icon="@drawable/ic_font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
         settings:controller="com.android.settings.display.FontSizePreferenceController" />
 
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
+        android:icon="@drawable/ic_screen_zoom"
         android:title="@string/screen_zoom_title"
         android:fragment="com.android.settings.display.ScreenZoomSettings"/>
 
@@ -125,11 +129,13 @@
 
     <Preference
         android:key="screensaver"
+        android:icon="@drawable/ic_screensaver"
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
     <Preference
         android:key="lockscreen_from_display_settings"
+        android:icon="@drawable/ic_smart_lock"
         android:title="@string/lockscreen_settings_title"
         android:fragment="com.android.settings.security.LockscreenDashboardFragment"
         settings:keywords="@string/keywords_ambient_display_screen"
@@ -146,13 +152,9 @@
 
     <SwitchPreference
         android:key="tap_to_wake"
+        android:icon="@drawable/ic_settings_quick_gestures"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
-
-    <ListPreference
-        android:key="display_cutout_emulation"
-        android:title="@string/display_cutout_emulation"
-        settings:keywords="@string/display_cutout_emulation_keywords" />
 
     <ListPreference
         android:key="theme"
