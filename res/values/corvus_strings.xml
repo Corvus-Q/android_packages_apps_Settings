@@ -117,4 +117,9 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
+    <!-- Themes -->
+    <string name="corvus_themes_title">Raven Themes</string>
+    <string name="corvus_themes_summary">Lets get some colors to Fly High</string>
+
 </resources>
