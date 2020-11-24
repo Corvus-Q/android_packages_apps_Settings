@@ -111,4 +111,7 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
