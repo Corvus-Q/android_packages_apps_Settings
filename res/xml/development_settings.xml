@@ -56,6 +56,12 @@
                 android:targetClass="com.android.settings.SetFullBackupPassword" />
         </Preference>
 
+        <com.corvus.support.preferences.GlobalSettingSwitchPreference
+            android:key="allow_signature_fake"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"
+            android:defaultValue="false" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="keep_screen_on"
             android:title="@string/keep_screen_on"
