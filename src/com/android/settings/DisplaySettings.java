@@ -29,13 +29,11 @@ import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
-import com.android.settings.display.CustomOverlayPreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.EmulateDisplayCutoutPreferenceController;
-import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -96,14 +94,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new EmulateDisplayCutoutPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
-	controllers.add(new CustomOverlayPreferenceController(context,
-		"android.theme.customization.custom_overlays"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.icon_pack.android"));
         return controllers;
     }
 

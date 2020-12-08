@@ -166,30 +166,4 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
-        <ListPreference
-            android:key="android.theme.customization.icon_pack.android"
-            android:title="@string/theme_customization_icon_pack_android_title"/>
-	<ListPreference
-            android:key="android.theme.customization.custom_overlays"
-            android:title="@string/theme_customization_systemui_title"/>
-
-     <Preference
-         android:key="themes"
-         android:title="@string/themes_title"
-         android:summary="@string/themes_summary"
-         android:fragment="com.android.settings.corvus.CorvusThemes" />
-
-    </PreferenceCategory>
-
 </PreferenceScreen>
