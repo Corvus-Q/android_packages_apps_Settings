@@ -409,4 +409,8 @@ phone.</string>
  	<item quantity="one">1 app locked</item>
         <item quantity="other">%d apps locked</item>
     </plurals>
+
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+
 </resources>
