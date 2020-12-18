@@ -337,6 +337,6 @@
         <item quantity="many">%d aplikací uzamčeno</item>
         <item quantity="other">%d aplikací uzamčeno</item>
     </plurals>
-    <string name="auto_brightness_min_title">Minimal brightness level</string>
-    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <string name="auto_brightness_min_title">Minimální úroveň jasu</string>
+    <string name="auto_brightness_description_new">Jas obrazovky se automaticky přizpůsobí aktivitám a prostředí, ve kterém se nacházíte.\n\nMůžete si upravit minimální úroveň jasu, která bude použita.</string>
 </resources>
