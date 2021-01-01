@@ -340,6 +340,6 @@
     <string name="auto_brightness_min_title">Minimální úroveň jasu</string>
     <string name="auto_brightness_description_new">Jas obrazovky se automaticky přizpůsobí aktivitám a prostředí, ve kterém se nacházíte.\n\nMůžete si upravit minimální úroveň jasu, která bude použita.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first (Needs SystemUI Restart)</string>
+    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
+    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit (vyžaduje restart SystemUI)</string>
 </resources>
