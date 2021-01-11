@@ -154,6 +154,10 @@
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Off</string>
     <string name="greatest_tick_label">Half screen</string>

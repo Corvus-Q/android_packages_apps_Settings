@@ -43,6 +43,12 @@
             android:selectable="true"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
+       
+        <com.corvus.support.preferences.SystemSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
