@@ -73,6 +73,12 @@
         android:key="battery_usage_category"
         android:title="@string/battery_usage_category_title"> 
 
+    <SwitchPreference
+        android:key="fast_charging"
+        android:title="@string/fast_charging_title"
+        android:summary="@string/fast_charging_summary"
+        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:icon="@drawable/ic_last_full_charge"
