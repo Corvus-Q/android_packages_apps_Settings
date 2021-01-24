@@ -47,6 +47,8 @@ import android.view.View.OnLongClickListener;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -94,6 +96,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_SCREEN_USAGE = "screen_usage";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_SMART_CHARGING_CATEGORY = "smart_charging_category";
+    private static final String KEY_BATTERY_INFO_CATEGORY = "battery_info_category";
 
     private static final String KEY_CURRENT_BATTERY_CAPACITY = "current_battery_capacity";
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
@@ -102,6 +106,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private String mBatDesCap;
     private String mBatCurCap;
     private String mBatChgCyc;
+
+    private PreferenceCategory mSmartChargingCat;
+    private PreferenceCategory mBatteryInfoCat;
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -278,6 +285,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatteryTemp = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
+        mBatteryInfoCat = (PreferenceCategory) findPreference(KEY_BATTERY_INFO_CATEGORY);
+
+
         restartBatteryInfoLoader();
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
@@ -404,17 +414,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mBatChgCyc = getResources().getString(R.string.config_batChargeCycle);
 
         // Check availability of Battery Health
-        Preference mDesignedHealthPref = (Preference) findPreference(KEY_DESIGNED_BATTERY_CAPACITY);
         if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
-            getPreferenceScreen().removePreference(mDesignedHealthPref);
-        }
-        Preference mCurrentHealthPref = (Preference) findPreference(KEY_CURRENT_BATTERY_CAPACITY);
-        if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
-            getPreferenceScreen().removePreference(mCurrentHealthPref);
-        }
-        Preference mCyclesHealthPref = (Preference) findPreference(KEY_BATTERY_CHARGE_CYCLES);
-        if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
-            getPreferenceScreen().removePreference(mCyclesHealthPref);
+            getPreferenceScreen().removePreference(mBatteryInfoCat);
         }
 
         // reload BatteryInfo and updateUI
