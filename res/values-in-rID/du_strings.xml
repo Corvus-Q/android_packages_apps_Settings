@@ -14,38 +14,29 @@
      limitations under the License. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="nama_paket">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
-    <string name="crvs_version">Corvus version</string>
-    <string name="crvs_version_default">Unknown</string>
-    <string name="keywords_corvus_version">corvus version</string>
+    <string name="about_device_name">Perangkat</string>
+    <string name="build_date">Tanggal Pembuatan</string>
+    <string name="crvs_version">Versi Corvus</string>
+    <string name="crvs_version_default">Tak diketahui</string>
+    <string name="keywords_corvus_version">versi corvus</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your 
-phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your 
-phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your 
-phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Temukan lokasi pemindai sidik jari di bagian depan telepon Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Temukan lokasi sensor sidik jari di sisi kiri telepon Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Temukan pemindai sidik jari di sisi kanan telepon Anda.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your 
-device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your 
-device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your 
-device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Temukan lokasi sensor sidik jari di bagian depan perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Temukan sensor sidik jari di sisi kiri perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Temukan sensor sidik jari di sisi kanan perangkat Anda.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your 
-tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your 
-tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your 
-tablet.</string>
-    <string name="battery_temp">Battery temperature</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Temukan lokasi sensor sidik jari di sisi kiri tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Temukan lokasi sensor sidik jari di bagian sisi kanan tablet Anda.</string>
+    <string name="battery_temp">Suhu Baterai</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Atur ulang statistik</string>
+    <string name="battery_stats_message">Statistik riwayat baterai akan diatur ulang</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Quick unlock -->
