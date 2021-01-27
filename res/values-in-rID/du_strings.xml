@@ -125,31 +125,31 @@
     <string name="display_rotation_270_title">270 derajat</string>
     <!-- Themes -->
     <string name="du_themes_title">Tema</string>
-    <string name="du_themes_summary">Life is like a box of crayons..</string>
+    <string name="du_themes_summary">Hidup itu seperti sekotak krayon...</string>
     <!-- Notification Vibration -->
-    <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
+    <string name="vibrate_on_notifications_title">Getarkan saat ada notifikasi</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Custom ambient display -->
-    <string name="ambient_display_category">Ambient display</string>
-    <string name="lockscreen_settings_category">General</string>
-    <string name="ambient_other_category">Other</string>
-    <string name="ambient_display_custom_title">Custom options</string>
-    <string name="ambient_display_custom_summary">Wake screen with notifications and various gestures</string>
+    <string name="ambient_display_category">Tampilan Ambient</string>
+    <string name="lockscreen_settings_category">Umum</string>
+    <string name="ambient_other_category">Lainnya</string>
+    <string name="ambient_display_custom_title">Pilihan kustom</string>
+    <string name="ambient_display_custom_summary">Bangunkan layar dengan notifikasi dan berbagai gerakan</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
+    <string name="suggestion_button_close">Tutup</string>
     <!-- Customize your device -->
-    <string name="custom_style_suggestion_title">Customize your device</string>
-    <string name="custom_style_suggestion_summary">Try different themes, fonts, and more</string>
+    <string name="custom_style_suggestion_title">Kustomisasi perangkat Anda</string>
+    <string name="custom_style_suggestion_summary">Coba tema, font, dan lainnya yang berbeda</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_title">Pengisian Pintar</string>
+    <string name="smart_charging_summary">Atur tingkat maksimum pengisian daya</string>
+    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
+    <string name="smart_charging_level_title">Hentikan tingkat pemicu</string>
+    <string name="smart_charging_resume_level_title">Mulai tingkat pemicu</string>
     <string name="smart_charging_reset_stats_title">Atur ulang statistik baterai</string>
     <string name="smart_charging_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
     <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian maksimum untuk memperpanjang umur baterai Anda</string>
@@ -209,62 +209,63 @@
     <string name="adaptive_playback_timeout_1_min_summary">Hidup (1 menit)</string>
     <string name="adaptive_playback_timeout_2_min">2 menit</string>
     <string name="adaptive_playback_timeout_2_min_summary">Hidup (2 menit)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Hidup (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Recent Changes</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Catatan perubahan</string>
+    <string name="changelog_summary">Perubahan terkini</string>
+    <string name="changelog_loading">Memuat daftar perubahan\u2026</string>
+    <string name="changelog_error">Tidak dapat memuat daftar perubahan</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
     <!-- Swipe up for face unlock -->
-    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
-    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="security_settings_face_require_swipe">Geser ke atas untuk membuka kunci</string>
+    <string name="security_settings_face_require_swipe_summary">Geser ke atas pada layar kunci untuk menggunakan buka kunci wajah</string>
     <!-- Search keywords -->
-    <string name="keywords_notification_log">notifications, notification log</string>
+    <string name="keywords_notification_log">notifikasi, log notifikasi</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Earbud tersimpan</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_summary">Optimalkan layar Anda berdasarkan waktu dan kondisi sekitar untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
+    <string name="live_display_mode">Mode tampilan</string>
+    <string name="live_display_color_temperature_title">Temperatur warna</string>
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K;
+Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="derajat">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat di bawah sinar matahari</string>
+    <string name="live_display_low_power_title">Kurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Menyesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Meningkatkan vibrasi warna dari corak terang, pemandangan dan gambar lain</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang akurat dan putih terang</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Peningkatan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinematik</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Dasar</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan tampilan yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna-warna hangat untuk mengurangi kelelahan mata</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat dengan ruang warna sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat untuk ruang warna DCI-P3</string>
     <string name="live_display_reading_mode_title">Mode membaca</string>
     <string name="live_display_reading_mode_summary">Mode warna abu-abu untuk pembacaan jangka panjang</string>
     <string name="color_calibration_title">Kalibrasi warna</string>
@@ -325,18 +326,18 @@
     <string name="applock_unlocked_apps">Aplikasi tidak terkunci</string>
     <string name="applock_show_only_on_wake">Lakukan autentikasi hanya sekali</string>
     <string name="applock_show_only_on_wake_on_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci hingga layarnya mati</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_show_only_on_wake_off_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci selama 15 detik setelah keluar</string>
+    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
+    <string name="applock_show_notif">Menampilkan konten notifikasi</string>
+    <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
+    <string name="applock_setup">Siapkan pengunci aplikasi</string>
+    <string name="applock_overlay_summary">Fitur ini tidak tersedia karena aplikasi ini terkunci</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d aplikasi terkunci</item>
     </plurals>
-    <string name="auto_brightness_min_title">Minimal brightness level</string>
-    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <string name="auto_brightness_min_title">Tingkat kecerahan minimal</string>
+    <string name="auto_brightness_description_new">Kecerahan layar Anda akan secara otomatis menyesuaikan lingkungan sekitar dan aktivitas Anda.\n\nAnda dapat menyesuaikan tingkat kecerahan minimal yang akan diterapkan.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first (Needs SystemUI Restart)</string>
+    <string name="fod_gesture_title">Sidik jari saat layar mati</string>
+    <string name="fod_gesture_summary">Memungkinkan membuka kunci perangkat tanpa harus membangunkan layar terlebih dahulu (Perlu Restart SistemUI)</string>
 </resources>
