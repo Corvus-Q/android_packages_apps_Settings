@@ -20,6 +20,10 @@
     android:key="connected_devices_screen"
     android:title="@string/connected_devices_dashboard_title">
 
+    <Preference
+        android:key="connected_devices_animation"
+        android:layout="@layout/connected_devices_animation" />
+
     <com.android.settings.slices.SlicePreference
         android:key="bt_nearby_slice"
         android:title="@string/summary_placeholder"
