@@ -335,9 +335,9 @@
         <item quantity="one">1 aplicativo bloqueado</item>
         <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
-    <string name="auto_brightness_min_title">Minimal brightness level</string>
-    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <string name="auto_brightness_min_title">Nível mínimo de brilho</string>
+    <string name="auto_brightness_description_new">O brilho da tela será ajustado automaticamente ao seu ambiente e às suas atividades.\n\nVocê pode ajustar um nível mínimo de brilho que será usado.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first (Needs SystemUI Restart)</string>
+    <string name="fod_gesture_title">Desligar tela com a impressão digital</string>
+    <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro (Necessita de reinicialização do SystemUI)</string>
 </resources>
