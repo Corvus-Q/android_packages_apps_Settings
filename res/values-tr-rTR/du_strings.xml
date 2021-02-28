@@ -16,7 +16,7 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Cihaz</string>
     <string name="build_date">Yapı Tarihi</string>
     <string name="crvs_version">Corvus sürümü</string>
     <string name="crvs_version_default">Bilinmiyor</string>
@@ -154,8 +154,8 @@
     <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
     <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Allow application to access the network</string>
+    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
+    <string name="data_usage_app_restrict_all_summary">Uygulamanın ağa erişmesine izin ver</string>
     <string name="data_usage_app_restrict_data">Hücresel veri</string>
     <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_vpn">VPN verileri</string>
@@ -183,11 +183,11 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
+    <string name="home_handle_sizer_title">Gezinme çubuğu tutma yeri uzunluğu.</string>
     <string name="home_handle_low_label">Gizli</string>
     <string name="home_handle_high_label">Uzun</string>
-    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
-    <string name="home_handle_thick_label">Thick</string>
+    <string name="home_handle_height_sizer_title">Gezinme çubuğu tutma yeri kalınlığı.</string>
+    <string name="home_handle_thick_label">Yoğun</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
@@ -229,13 +229,13 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
+    <string name="live_display_mode">Ekran Modu</string>
+    <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
+    <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">Gün</string>
+    <string name="live_display_night">Gece</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
