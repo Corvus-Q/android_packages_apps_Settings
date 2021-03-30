@@ -14,64 +14,55 @@
      limitations under the License. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
     <!-- About phone screen, Corvus version -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
-    <string name="crvs_version">Corvus version</string>
-    <string name="crvs_version_default">Unknown</string>
-    <string name="keywords_corvus_version">corvus version</string>
+    <string name="about_device_name">Thiết bị</string>
+    <string name="build_date">Ngày dựng</string>
+    <string name="crvs_version">Phiên bản Corvus</string>
+    <string name="crvs_version_default">Không xác định</string>
+    <string name="keywords_corvus_version">Phiên bản Corvus</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your 
-phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your 
-phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your 
-phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Định vị cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Định vị cảm biến vân tay trên cạnh trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Xác định vị trí cảm biến vân tay ở bên phải điện thoại của bạn.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your 
-device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your 
-device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your 
-device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Định vị trí cảm biến vân tay trên mặt trước thiết bị của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Vị trí cảm biến vân tay ở bên trái của thiết bị.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Định vị trí cảm biến vân tay trên cạnh phải thiết bị của bạn.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your 
-tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your 
-tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your 
-tablet.</string>
-    <string name="battery_temp">Battery temperature</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước máy tính bảng của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Vị trí cảm biến vân tay trên cạnh trái máy tính bảng của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Định vị trí cảm biến vân tay trên cạnh phải máy tính bảng của bạn.</string>
+    <string name="battery_temp">Nhiệt độ pin</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Đặt lại thông số</string>
+    <string name="battery_stats_message">Thống kê lịch sử pin sẽ được thiết lập lại</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Mở khóa tự động khi nhập đúng mật khẩu/PIN</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Tùy chọn mật độ</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Chọn kích thước mẫu</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Lỗi hiển thị mẫu hình</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Hiện dấu chấm mẫu hình</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Nhạc chuông - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Nhạc chuông - SIM 2</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_summary_template">Cho phép âm thanh hoặc rung không nhiều hơn một lần mỗi <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Không giới hạn</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 giây</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 giây</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
