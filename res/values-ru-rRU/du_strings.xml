@@ -171,30 +171,30 @@
     <string name="keywords_vibration_preferences">шаблон вибрации, интенсивность вибрации, при звонке, отклик, нажатие, сила вибрации</string>
     <string name="ringtone_vibration_pattern">Шаблон вибрации мелодии вызова</string>
     <string name="vibration_intensity_ringer">Интенсивность вибрации мелодии вызова</string>
-    <string name="vibration_intensity_notification">Notification vibration intensity</string>
-    <string name="vibration_intensity_disabled">Disabled</string>
-    <string name="vibration_intensity_light">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_strong">High</string>
-    <string name="vibration_intensity_custom">Custom</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="vibration_intensity_notification">Интенсивность вибрации уведомления</string>
+    <string name="vibration_intensity_disabled">Отключен</string>
+    <string name="vibration_intensity_light">Низкий</string>
+    <string name="vibration_intensity_medium">Средний</string>
+    <string name="vibration_intensity_strong">Высокий</string>
+    <string name="vibration_intensity_custom">Настраиваемый</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
-    <string name="home_handle_low_label">Hidden</string>
-    <string name="home_handle_high_label">Long</string>
-    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
-    <string name="home_handle_thick_label">Thick</string>
+    <string name="home_handle_sizer_title">Длина ручки панели навигации.</string>
+    <string name="home_handle_low_label">Скрытый</string>
+    <string name="home_handle_high_label">Длинный</string>
+    <string name="home_handle_height_sizer_title">Толщина ручки панели навигации.</string>
+    <string name="home_handle_thick_label">Толстая</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Корневая отладка</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с root правами</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
     <!-- Improvements to Night Light -->
-    <string name="unknown_night_light_time">Unknown - press to update</string>
+    <string name="unknown_night_light_time">Неизвестно - нажмите для обновления</string>
     <string name="night_display_location_text">\n\nThe schedule from sunset to sunrise requires enabled location services to get the correct times for your location.</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
@@ -283,10 +283,10 @@
     <string name="a2dp_source_codec_priority_title">Аудиокодек Bluetooth (предпочтительный)</string>
     <!-- SBC HD (Dual Channel) priority -->
     <string name="sbc_hd_priority_title">SBC HD аудио</string>
-    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <string name="sbc_hd_priority_summary">Использовать двухканальный режим для кодека SBC по умолчанию</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="battery_health_title">Здоровье батареи</string>
+    <string name="battery_health_summary">Мониторинг состояния батареи вашего устройства</string>
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
