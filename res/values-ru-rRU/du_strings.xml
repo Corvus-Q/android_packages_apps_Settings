@@ -14,7 +14,7 @@
      limitations under the License. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="Имя Пакета">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
     <string name="about_device_name">Устройство</string>
     <string name="build_date">Дата сборки</string>
@@ -310,36 +310,36 @@
     <string name="battery_usage_info_category_title">Информация об использовании батареи</string>
     <string name="volume_key_category_title">Ярлык громкости</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access toast</string>
+    <string name="show_clipboard_toast">Показывать оповещения о доступе к буферу обмена</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
-    <string name="specs_title">Phone Specifications</string>
+    <string name="lockscreen_timeout_title">Тайм-аут экрана блокировки</string>
+    <string name="specs_title">Технические характеристики телефона</string>
     <!-- Corvus maintainer -->
-    <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Unofficial Maintainer</string>
+    <string name="maintainer">Сопровождающий</string>
+    <string name="corvus_maintainer">Неофициальный сопровождающий</string>
     <!-- App lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Блокировка приложений</string>
+    <string name="applock_locked">Заблокирован</string>
+    <string name="applock_unlocked">Разблокирован</string>
+    <string name="applock_locked_apps">Заблокированные приложения</string>
+    <string name="applock_unlocked_apps">Разблокированные приложения</string>
+    <string name="applock_show_only_on_wake">Аутентификация только один раз</string>
+    <string name="applock_show_only_on_wake_on_summary">После аутентификации приложение остается разблокированным, пока экран не выключится</string>
+    <string name="applock_show_only_on_wake_off_summary">После аутентификации приложение остается разблокированным в течение 15 секунд после выхода</string>
+    <string name="applock_notification_info">Вы можете показать/скрыть содержимое уведомлений для каждого приложения, нажав на значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
+    <string name="applock_show_notif">Отображение содержимого уведомления</string>
+    <string name="applock_hide_notif">Скрыть содержимое уведомлений</string>
+    <string name="applock_setup">Настроить блокировку приложений</string>
+    <string name="applock_overlay_summary">Эта функция недоступна, так как приложение заблокировано</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="few">%d apps locked</item>
-        <item quantity="many">%d apps locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 приложение заблокировано</item>
+        <item quantity="few">%d приложений заблокировано</item>
+        <item quantity="many">%d приложений заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
     </plurals>
-    <string name="auto_brightness_min_title">Minimal brightness level</string>
-    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <string name="auto_brightness_min_title">Минимальный уровень яркости</string>
+    <string name="auto_brightness_description_new">Яркость экрана будет автоматически регулироваться в зависимости от вашего окружения и действий.\n\nВы можете настроить минимальный уровень яркости, который будет использоваться.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first (Needs SystemUI Restart)</string>
+    <string name="fod_gesture_title">Отключение экрана отпечатком пальца</string>
+    <string name="fod_gesture_summary">Разрешает разблокировать устройство без предварительного включения экрана (Требуется перезапуск SystemUI)</string>
 </resources>
