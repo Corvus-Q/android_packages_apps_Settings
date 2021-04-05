@@ -54,9 +54,9 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показывать точки графического ключа</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Рингтон - SIM 1</string>
+    <string name="ringtone1_title">Мелодия звонка - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Рингтон - SIM 2</string>
+    <string name="ringtone2_title">Мелодия звонка - SIM 2</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Минимальный интервал между звуками уведомлений</string>
     <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не более чем один раз каждые <xliff:g id="duration">%1$s</xliff:g></string>
