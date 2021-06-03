@@ -27,20 +27,21 @@
     android:key="logo"
     android:selectable="false"/>
 
+     <!-- Corvus version -->
+     <Preference
+          android:key="crvs_version"
+	  android:title="@string/crvs_version"
+	  android:layout="@layout/corvus_version"
+          settings:enableCopying="true"
+          settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
+
+    <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-    <!-- Corvus version -->
-    <Preference
-         android:key="crvs_version"
-         android:title="@string/crvs_version"
-         android:summary="@string/summary_placeholder"
-         settings:enableCopying="true"
-         settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
 
     <!-- Device name -->
     <Preference
