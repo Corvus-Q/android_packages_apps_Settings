@@ -316,7 +316,7 @@
     <string name="specs_title">Phone Specifications</string>
     <!-- Corvus maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="corvus_maintainer">Unofficial Maintainer</string>
+    <string name="corvus_maintainer">Resmi Olmayan Sorumlular</string>
     <!-- App lock -->
     <string name="applock_title">App locker</string>
     <string name="applock_locked">Kilitli</string>
