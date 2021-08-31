@@ -290,23 +290,23 @@
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüleri</string>
     <!-- categories -->
-    <string name="display_screen_category">Screen</string>
-    <string name="lock_screen_category">LockScreen</string>
+    <string name="display_screen_category">Ekran</string>
+    <string name="lock_screen_category">Kilit Ekranı</string>
     <string name="theme_customization_category">Theming and Misc</string>
-    <string name="display_customisation_title">Display Customisation</string>
-    <string name="wake_options_category_title">Wake Options</string>
-    <string name="volume_adjustment_category_title">Volume Adjustments</string>
-    <string name="sound_effects_category_title">Effects</string>
-    <string name="do_not_disturb_category_title">Do Not Disturb</string>
-    <string name="ringtone_category_title">Ringtone</string>
-    <string name="vibrations_category_title">Vibrations</string>
-    <string name="apps_category">Apps</string>
-    <string name="connected_devices_category_title">Connected Devices</string>
-    <string name="battery_saver_category_title">Battery Saver</string>
-    <string name="smart_charging_category_title">Smart Charging</string>
+    <string name="display_customisation_title">Ekran Özelleştirme</string>
+    <string name="wake_options_category_title">Uyandırma seçenekleri</string>
+    <string name="volume_adjustment_category_title">Ses Seviyesi Ayarlamaları</string>
+    <string name="sound_effects_category_title">Etkiler</string>
+    <string name="do_not_disturb_category_title">Rahatsız Etme</string>
+    <string name="ringtone_category_title">Zil Sesi</string>
+    <string name="vibrations_category_title">Titreşim</string>
+    <string name="apps_category">Uygulamalar</string>
+    <string name="connected_devices_category_title">Bağlı Cihazlar</string>
+    <string name="battery_saver_category_title">Pil Tasarrufu</string>
+    <string name="smart_charging_category_title">Akıllı Şarj</string>
     <string name="battery_usage_info_category_title">Battery Usage Info</string>
     <string name="volume_key_category_title">Volume Shortcut</string>
     <!-- Clipboard toast toggle -->
@@ -319,8 +319,8 @@
     <string name="corvus_maintainer">Unofficial Maintainer</string>
     <!-- App lock -->
     <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked">Kilitli</string>
+    <string name="applock_unlocked">Kilitli değil</string>
     <string name="applock_locked_apps">Locked apps</string>
     <string name="applock_unlocked_apps">Unlocked apps</string>
     <string name="applock_show_only_on_wake">Authenticate only once</string>
@@ -335,7 +335,7 @@
         <item quantity="one">1 app locked</item>
         <item quantity="other">%d apps locked</item>
     </plurals>
-    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_min_title">Minimum parlaklık seviyesi</string>
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
