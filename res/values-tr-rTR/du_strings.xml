@@ -318,26 +318,26 @@
     <string name="maintainer">Cihaz sorumlusu</string>
     <string name="corvus_maintainer">Resmi Olmayan Sorumlular</string>
     <!-- App lock -->
-    <string name="applock_title">App locker</string>
+    <string name="applock_title">Uygulama kilitleyici</string>
     <string name="applock_locked">Kilitli</string>
     <string name="applock_unlocked">Kilitli değil</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_locked_apps">Kilitli uygulamalar</string>
+    <string name="applock_unlocked_apps">Kilitli olmayan uygulamalar</string>
+    <string name="applock_show_only_on_wake">Sadece bir kez kimlik doğrula</string>
+    <string name="applock_show_only_on_wake_on_summary">Kimlik doğrulaması yapıldıktan sonra, ekran kapanana kadar uygulamanın kilidi açık kalır</string>
+    <string name="applock_show_only_on_wake_off_summary">Kimlik doğrulaması yapıldıktan sonra, uygulamadan çıktıktan sonra 15 saniye boyunca kilidi açık kalır</string>
+    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir veya gizleyebilirsiniz</string>
+    <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
+    <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
+    <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
+    <string name="applock_overlay_summary">Uygulama kilitli olduğundan bu özellik kullanılamıyor</string>
     <plurals name="applock_summary">
         <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d uygulamalar kilitli</item>
     </plurals>
     <string name="auto_brightness_min_title">Minimum parlaklık seviyesi</string>
-    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+    <string name="auto_brightness_description_new">Ekran parlaklığınız otomatik olarak ortamınıza ve etkinliklerinize göre ayarlanır.\n\nKullanılacak minimum parlaklık seviyesini ayarlayabilirsiniz.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first (Needs SystemUI Restart)</string>
+    <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
+    <string name="fod_gesture_summary">Ekranı uyandırma zorunda kalmadan cihazın kilidini açmaya izin verir (Sistem arayüzünün yeniden başlatılması gerekir)</string>
 </resources>
