@@ -332,7 +332,7 @@
     <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
     <string name="applock_overlay_summary">Uygulama kilitli olduğundan bu özellik kullanılamıyor</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
+        <item quantity="one">1 uygulama kilitli</item>
         <item quantity="other">%d uygulamalar kilitli</item>
     </plurals>
     <string name="auto_brightness_min_title">Minimum parlaklık seviyesi</string>
