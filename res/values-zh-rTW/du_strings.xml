@@ -89,13 +89,13 @@
     <!-- Gesture Navigation -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">可觸發返回手勢的螢幕高度範圍。</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">指示燈顏色</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">預設</string>
     <!-- Ambient Display wake gestures/music ticker -->
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
@@ -103,8 +103,8 @@
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">插上喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">接上或移除電源時開啟螢幕</string>
     <!-- Battery charge warning -->
     <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
     <string name="notification_sound_battery_charge_summary">Play a sound when battery reaches charge level</string>
