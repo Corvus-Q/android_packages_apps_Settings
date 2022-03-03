@@ -70,11 +70,11 @@ tablet.</string>
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
@@ -82,7 +82,7 @@ tablet.</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">（深層睡眠：%1$d%2$s）</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- Hardware info -->
@@ -129,9 +129,9 @@ phone.</string>
     <string name="display_rotation_disabled">Disabled</string>
     <string name="display_rotation_unit">degrees</string>
     <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_0_title">0 度</string>
     <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_180_title">180 度</string>
     <string name="display_rotation_270_title">270 degrees</string>
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
@@ -215,13 +215,13 @@ phone.</string>
     <string name="adaptive_playback_timeout_none_summary">Off</string>
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
     <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
@@ -342,7 +342,7 @@ phone.</string>
     <string name="applock_setup">Setup app locker</string>
     <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">已鎖上 %d 個 app</item>
     </plurals>
     <string name="auto_brightness_min_title">Minimal brightness level</string>
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
