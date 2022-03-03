@@ -71,11 +71,11 @@ tablet.</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <string name="background_processes_settings_title">Background processes</string>
@@ -132,7 +132,7 @@ phone.</string>
     <string name="display_rotation_0_title">0 度</string>
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 度</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- Themes -->
     <string name="du_themes_title">Themes</string>
     <string name="du_themes_summary">Life is like a box of crayons..</string>
@@ -213,7 +213,7 @@ phone.</string>
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
     <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
