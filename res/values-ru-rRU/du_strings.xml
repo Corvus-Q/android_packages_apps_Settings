@@ -14,7 +14,7 @@
      limitations under the License. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="Имя Пакета">%1$s</xliff:g></string>
     <!-- About phone screen, Corvus version -->
     <string name="about_device_name">Устройство</string>
     <string name="build_date">Дата сборки</string>
