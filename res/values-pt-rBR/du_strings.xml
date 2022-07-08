@@ -329,7 +329,7 @@
     <string name="applock_notification_info">Você pode mostrar/ocultar o conteúdo da notificação por aplicativo, clicando no ícone de notificação mostrado na preferência de cada aplicativo bloqueado</string>
     <string name="applock_show_notif">Mostrar o conteúdo das notificações</string>
     <string name="applock_hide_notif">Ocultar o conteúdo das notificações</string>
-    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_setup">Configurar bloqueio de aplicativos</string>
     <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
         <item quantity="one">1 aplicativo bloqueado</item>
